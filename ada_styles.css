@@ -1,0 +1,110 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+
+body {
+display:block;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: coral;
+  color: teal;
+  text-align: center;
+}
+header {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1280px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg") no-repeat fixed;
+  background-position: top;
+  background-size:100%;
+  display: block;
+  color: darkcyan;
+  padding-top:75px;
+  line-height: 1;
+  font-family: 'Emilys Candy', cursive;
+  letter-spacing: 1px;
+}
+#gist {
+  display: block;
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: x-large;
+  padding-bottom: 30px;
+  font-family: 'Kiwi Maru', serif;
+  color: deepjunglegreen;
+  font-weight: bold;
+  text-shadow: 3px 3px beige, -3px -3px beige;
+}
+h1 {
+  font-size: xx-large;
+  color: darkcyan;
+  letter-spacing: 4px;
+}
+h2 {
+  font-variant: small-caps;
+  font-size: xx-large;
+  text-decoration: underline solid;
+  text-decoration-thickness: thick;
+  
+}
+main{
+  display: grid;
+  grid-template-columns: 3fr 4fr 1fr;
+  height: auto;
+}
+#timelinehead {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  column-start: 2/span 2;
+}
+h3 {
+  font-weight: bold;
+  font-size: large;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+p {
+  padding-bottom:10px;
+}
+section {
+  display: block;
+  width: 25vw;
+  color: seagreen;
+  background: khaki;
+  border: 5px solid sienna;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: fit-content;
+  
+}
+@media (max-width: 460px) {
+  #img-div {
+    display:block;
+    max-width:none;
+    grid-column:0;
+    position: -webkit-sticky;
+    position: sticky; 
+    top: -10px;
+  }}
+#timeline {
+  grid-column:2;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr 5fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 3fr 9fr 1fr 1fr 1fr;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.blank {
+  border: none;
+  background: none;
+}
+@media (max-width: 460px) {
+  img {
+    display:block;
+    max-width:100%;
+    margin:auto;
+  }}

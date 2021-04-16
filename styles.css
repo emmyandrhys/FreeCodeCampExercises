@@ -1,0 +1,47 @@
+header {
+  font-size: xx-large;
+}
+a {
+  font-size: x-large;
+  color: teal;
+  text-decoration: none;
+  border: teal solid;
+  padding: 10px;
+  
+}
+main {
+  padding-left:20px;
+}
+code {
+  padding-left: 40px;
+}
+@media (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  
+}
+@media (min-width: 601px) {
+  body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  nav {
+    grid-column: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: lavender;
+    color: teal;
+  }
+  main {
+    grid-column: 2;
+    display: inline;
+    
+  }
+}

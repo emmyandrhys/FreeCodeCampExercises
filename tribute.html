@@ -1,0 +1,223 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+<nav id="navbar">
+  <header>Ada Lovelace</header>
+  <a class="nav-link" href="#Introduction">Introduction</a>
+  <a class="nav-link" href="#Childhood">Childhood</a>
+  <a class="nav-link" href="#Education">Education</a>
+  <a class="nav-link" href="#Married_Life">Married Life</a>
+  <a class="nav-link" href="#Professional_Life">Professional Life</a>
+  <a class="nav-link" href="#Legacy">Legacy</a>
+  </nav>
+
+  <main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <p></p>
+    <p></p>
+  </section>
+  <section class="main-section" id="Childhood">
+    <header>Childhood</header>
+    <p></p>
+    <p></p>
+  </section>
+  <section class="main-section" id="Education">
+    <header>Education</header>
+    <p></p>
+    <p></p>
+  </section>
+  <section class="main-section" id="Married_Life">
+    <header>Married Life</header>
+    <p>Ada wed on 8 July 1835. She married William, 8th Baron King, becoming Lady King. They had three homes: 
+    <ol><li>Ockham Park, Surrey</li>
+      <li>a Scottish estate on Loch Torridon in Ross-shire</li>
+      <li>a house in London.</li></ul></p>
+    <p>With William, Ada had three children.  They were: 
+  <ul><li>Byron (born 12 May 1836)</li>
+    <li>Anne Isabella (called Annabella, born 22 September 1837)</li>
+    <li>Ralph Gordon (born 2 July 1839).</li><ul></p>
+  </section>
+  <section class="main-section" id="Professional_Life">
+    <header>Professional Life</header>
+    <p></p>
+    <p>Ada wrote what is considered the first computer program in the famous "Note G" of her translation of Mancera's article on Babbage's Difference Engine.  When translated into C, her program looks like what follows:</p>
+    <pre><code>
+int main(int argc, char* argv[])
+{
+    // ------------// Data // ------------
+    float v1 = 1; // 1
+    float v2 = 2; // 2
+    float v3 = 4; // n
+
+    // ------// Working Variables // ------
+    float v4 = 0;
+    float v5 = 0;
+    float v6 = 0;                    // Factors in the numerator
+    float v7 = 0;                  // Factors in the denominator
+    float v8 = 0;
+    float v10 = 0;    // Terms remaining count, basically
+    float v11 = 0;                // Accumulates v6 / v7 
+    float v12 = 0;               // Stores most recent calculated term
+    float v13 = 0;                     // Accumulates the whole result
+
+    // ------// Result Variables // ------
+    float v21 = 1.0f / 6.0f;            // B1
+    float v22 = -1.0f / 30.0f;           // B3
+    float v23 = 1.0f / 42.0f;            // B5
+    float v24 = 0;                      // B7, not yet calculated
+
+    // ---------// Calculation // ----------
+    // ------- A0 -------
+    /* 01 */ v4 = v5 = v6 = v2 * v3;     // 2n
+    /* 02 */ v4 = v4 - v1;                // 2n - 1
+    /* 03 */ v5 = v5 + v1;                // 2n + 1
+    /* 04 */ v11 = v4 / v5;              // (2n - 1) / (2n + 1)
+    /* 05 */ v11 = v11 / v2;              // (1 / 2) * ((2n - 1) / (2n + 1))
+    /* 06 */ v13 = v13 - v11;             // -(1 / 2) * ((2n - 1) / (2n + 1))
+    /* 07 */ v10 = v3 - v1;               // (n - 1), set counter?
+
+    // A0 = -(1 / 2) * ((2n - 1) / (2n + 1))
+
+    // ------- B1A1 -------
+    /* 08 */ v7 = v2 + v7;                // 2 + 0, basically a MOV instruction
+    /* 09 */ v11 = v6 / v7;               // 2n / 2
+    /* 10 */ v12 = v21 * v11;             // B1 * (2n / 2)
+
+    // ------- A0 + B1A1 -------
+    /* 11 */ v13 = v12 + v13;            // A0 + B1A1
+    /* 12 */ v10 = v10 - v1;             // (n - 2)
+    while (v10 > 0)
+    {
+        // ------- B3A3, B5A5 -------
+        while (v6 > 2 * v3 - (2 * (v3 - v10) - 2))
+        {                                    // First Loop:
+            /* 13 */ v6 = v6 - v1;           // 2n - 1
+            /* 14 */ v7 = v1 + v7;           // 2 + 1
+            /* 15 */ v8 = v6 / v7;           // (2n - 1) / 3
+            /* 16 */ v11 = v8 * v11;         // (2n / 2) * ((2n - 1) / 3)
+
+                                             // Second Loop:
+            // 17    v6 = v6 - v1;              2n - 2
+            // 18    v7 = v1 + v7;              3 + 1
+            // 19    v8 = v6 / v7;              (2n - 2) / 4
+            // 20    v11 = v8 * v11;           (2n / 2) * ((2n - 1) / 3) * ((2n - 2) / 4)
+        }
+        if (v10 == 2)
+        {
+        /* 21 */ v12 = v22 * v11;            // B3 * A3
+        }
+        else
+        {
+        /* 21 */ v12 = v23 * v11;            // B5 * A5
+        }
+
+       // B3A3 = B3 * (2n / 2) * ((2n - 1) / 3) * ((2n - 2) / 4)
+
+       // ------- A0 + B1A1 + B3A3, A0 + B1A1 + B3A3 + B5A5 -------
+        /* 22 */ v13 = v12 + v13;           // A0 + B1A1 + B3A3 (+ B5A5)
+        /* 23 */ v10 = v10 - v1;             // (n - 3), (n - 4)
+    }
+
+    /* 24 */ v24 = v13 + v24; // Store the final result in v24
+    /* 25 */ v3 = v1 + v3;    // Move on to the next Bernoulli number!
+    printf("A0 + B1A1 + B3A3 + B5A5: %.2f\n", v24);
+    }</code></pre>
+    <p>Her program has also been translated into Python, which may or may not be easier to read and interpret:</p>
+    <pre><code>from fractions import Fraction
+def bernoulli():
+ 
+  # results
+  Bs = list()
+ 
+  # start at n=1
+  n = 1
+  # calculate the sequence
+  while True:
+ 
+    # result = A0
+    r = -Fraction(2 * n - 1, 2 * n + 1) / 2
+ 
+    # A1 = n
+    A = n
+    # for each B[k] already determined calculate the corresponding A[k]
+    for (i, B) in enumerate(Bs):
+      if i > 0:
+        # multiply in the 2 additional terms
+        j = 2 * i - 1
+        A *= Fraction(2 * n - j, 2 + j)
+        j += 1
+        A *= Fraction(2 * n - j, 2 + j)
+      # add A[k] * B[k] into the result
+      r += A * B
+ 
+    # the computed bernoulli number is -r
+    B = -r
+    # return the number
+    yield B
+    # add it to the result list
+    <br>Bs.append(B)
+    # increase n
+    n += 1
+ 
+# run N iterations of the algorithm
+N = 10
+ 
+# allow N to be specified as a command line argument
+import sys
+if len(sys.argv) > 1:
+  N = int(sys.argv[1])
+ 
+k = 1 # ada's numbering (normal numbering is k + 1)
+K = 2 * N + 1 # max k
+for r in bernoulli():
+  print("B[{k}] = {r}".format(k=k, r=r))
+  k += 2
+  if k == K: break</code></pre>
+  </section>
+  <section class="main-section" id="Legacy">
+    <header>Legacy</header>
+    <p>Ada might have very well have not only created the first program, but also the first bug with a possible division error in her program.  This error is modelled and commented in C below. <pre><code>// In Lovelace's diagram, the below appears as v5 / v4, which is incorrect.
+      /* 04 */ v11 = v4 / v5;               // (2n - 1) / (2n + 1)</code></pre></p><p>In honor of Ada and her championing of Babagge's machine, there is a programming language, Ada, named after her. Ada is a structured, statically typed, imperative, and object-oriented high-level programming language, extended from Pascal and other languages.</p>
+    <p>In Ada, the basic Hello World looks like this: <pre><code>with Text_IO; use Text_IO;
+procedure hello is
+begin
+   Put_Line("Hello world!");
+      end hello;</code></pre></p><p>Another sample of Ada is below (this one having if-else statements)<pre><code>with ada.Text_IO; use Ada.Text_IO;
+with ada.Float_Text_IO; use Ada.Float_Text_IO;
+with ada.Numerics.Elementary_Functions;
+use ada.Numerics.Elementary_Functions;
+
+procedure roots is
+   a, b, c : float;
+   discriminant, root1, root2 : float;
+
+begin
+   put_line("Input A, B, C");
+   get(a);
+   get(b);
+   get(c);
+
+   discriminant := b**2 - 4.0*a*c;
+
+   if discriminant &lt 0.0 then 
+      put_line("no real roots");
+   else
+      root1 := (-b + sqrt(discriminant))/(2.0 * a);
+      root2 := (-b - sqrt(discriminant))/(2.0 * a);
+      put("roots are ");
+      put(root1);
+      put(" ");
+      put(root2);
+      new_line;
+   end if;
+
+                        end roots;</code></pre></p>
+  </section>
+</main>
+</body>
+<!-- 
+User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
+
+User Story #15: My Technical Documentation page should use at least one media query.
+
+-->

@@ -1,0 +1,41 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body>
+  <h1 id="title">Ada Survey</h1>
+  <p id="description">This is a short form surveying what you know about Ada Lovelace and what you think about her.</p>
+  <form id="survey-form">
+    <label id="name-label">Name: </><input id="name" type="text" required placeholder="Your Name" /><br />
+      <label id="email-label">Email: </label><input id="email" type="email" required placeholder="youremail@email.com" /><br /><br>
+      <label id="number-label">How many children did Ada Lovelace have? </label><input id="number" type="number" placeholder="number of children" min="0" max="100" /><br><br>
+      <label id="dropdown-label">Who was Ada's father? </label><br><select id="dropdown">
+        <option value="">Ada's father was...</option>
+        <option value="Charles  Babbage">Charles Babbage</option>
+        <opton value="William King">William King</option>
+          <option value="Lord Byron">Lord Byron</option>
+          <option value="Charles Dickens">Charles Dickens</option>
+          <option value="Lord Tennyson">Lord Tennyson</option>
+      </select><br><br>
+      <fieldset>
+
+        <label>Which of the following topics or areas of study did Ada spend time exploring?<br><input type="checkbox" value="flight of birds"><label> flight of birds </label><br>
+          <input type="checkbox" value="flight of humans"><label> flight of humans </label><br>
+          <input type="checkbox" value="poetry"><label> studying and writing poetry </label><br>
+          <input type="checkbox" value="programming"><label> developing computer programming languages </label><br>
+          <input type="checkbox" value="thought"><label> patterns of thought and brain science </label><br>
+          <input type="checkbox" value="gambling"><label> gambling </label><br>
+          <input type="checkbox" value="trees"><label> patterns of growth in tree branches </label><br>
+          <input type="checkbox" value="insects"><label> shapes of insect wings </label><br>
+          <input type="checkbox" value="Difference Engine"><label> developing the potential of the Difference Engine </label><br><br>
+      </fieldset><br>
+      <fieldset>
+        <label>In what publication did Ada write what is considered the first computer program?</label><br>
+        <input type="radio" value="English Mechanic" name="publication"><label> The English Mechanic and World of Science</label><br>
+        <input type="radio" value="Scientific Chronicles" name="publication"><label> Scientific Chronicles</label><br>
+        <input type="radio" value="Science Gossip" name="publication"><label> Hardwicke's Science Gossip: A Monthly Medium of Interchange and Gossip for Students and Lovers of Nature </label><br>
+        <input type="radio" value="Academy" name="publication"><label> Academy</label>
+      </fieldset><br>
+      <label>Is there anything else you know about Ada Lovelace that you would like to share?</label>
+      <textarea type="text">Ada Lovelace...</textarea><br><br>
+      <button id="submit">Submit</button>
+  </form>
+</body>
