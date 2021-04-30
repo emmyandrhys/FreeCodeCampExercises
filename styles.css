@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1; 
+    height: auto;
 }
 ol, ul {
 	list-style: none;
@@ -51,7 +52,7 @@ table {
 /* Layout structure */
 #wrapper {
     display: flex;
-    width: 100vw;
+    width: auto;
     height: 90vh;
     justify-content: center;
     align-content: center;
@@ -68,29 +69,36 @@ table {
     align-content: center;
     align-items: center;
     text-align: center;
-    background-color: #D656C1;
-    border: 1vh solid #D656C1;
+    background-color: #A84498;
+    border: 1vh solid #A84498;
     border-radius: 2vh;
     max-width: 80vw;
+    max-height: 80vh;
     width: fit-content;
     margin: 5vh;
     font-family: 'Kalam', cursive;
+    box-shadow: 0 0 2em 1em #600060;
 }
 #text {
     font-weight: 700;
     font-size: 2em;
     line-height: 1.3em;
+    color:#ffb319
 }
 #author {
     font-weight: 300;
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 1em;
+    color:rgb(255, 255, 230);
 }
 button {
     color: rgb(255, 255, 230); 
     font-size: 18px; 
-    padding: 12px; 
+    padding-top: 1vh; 
+    padding-bottom: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
     border-radius: 3vh;
     border-color: #ffb319; 
     border-width: 0;
@@ -103,13 +111,38 @@ button {
 }
     
 button:hover {
-    background: rgb(28,110,164);
+    background: #ffa909;
     border:none 
 }
 button:active {
-    background: rgb(20,78,117);
+    background:#600060;
     border: none }
+#tweet-quote {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    color:#600060;
+    font-weight: bold;
+}
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     font-family: 'Lato', sans-serif;
+    background-color: rgb(199, 109, 86);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color:rgb(255, 255, 230);
+    font-size: small;
+}
+#quote-sources {
+    grid-column: 1;
+    text-align: center;
+}
+#background-credit {
+    grid-column: 2;
+    text-align: center;
+}
+a {
+    color: #ffb319
 }
 
