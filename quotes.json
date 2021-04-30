@@ -1,62 +1,61 @@
 
-{
-    "mathQuotes":[
-        {
-            "quote":"Some mathematician, I believe, has said that true pleasure lies not in the discovery of truth, but in the search for it.",
-            "author":"Leo Tolstoy"
-        },
-        {
-            "quote":"Mathematics expresses values that reflect the cosmos, including orderliness, balance, harmony, logic, and abstract beauty.",
-            "author":"Deepak Chopra"
-        },
-        {
-            "quote":"I had a polynomial once. My doctor removed it.",
-            "author":"Michael Grant"
-        },
-        {
-            "quote":"The difference between the poet and the mathematician is that the poet tries to get his head into the heavens while the mathematician tries to get the heavens into his head.",
-            "author":"G.K. Chesterton"
-        },
-        {
-            "quote":"My first feeling was that there was no way to continue. Writing isn't like math;in math, two plus two always equals four no matter what your mood is like. With writing, the way you feel changes everything.",
-            "author":"Stephanie Meyer"
-        },
-        {
-            "quote":"I'm sorry to say that the subject I most disliked was mathematics. I have thought about it. I think the reason was that mathematics leaves no room for argument. If you made a mistake, that was all there was to it.",
-            "author":"Malcolm X"
-        },
-        {
-            "quote":"I know that two and two make four - and should be glad to prove it too if I could - though I must say if by any sort of process I could convert 2 and 2 into five it would give me much greater pleasure.",
-            "author":"Lord George Gordon Byron"
-        },
-        {
-            "quote":"I couldn't claim that I was smarter than sixty-five other guys--but the average of sixty-five other guys, certainly!",
-            "author":"Richard P. Feynman"
-        },
-        {
-            "quote":"Solving a problem for which you know there’s an answer is like climbing a mountain with a guide, along a trail someone else has laid. In mathematics, the truth is somewhere out there in a place no one knows, beyond all the beaten paths. And it’s not always at the top of the mountain. It might be in a crack on the smoothest cliff or somewhere deep in the valley.",
-            "author":"Yoko Ogawa"
-        },
-        {
-            "quote":"But in my opinion, all things in nature occur mathematically.",
-            "author":"Rene Decartes"
-        },
-        {
-            "quote":"Since the mathematicians have invaded the theory of relativity I do not understand it myself any more.",
-            "author":"Albert Einstein"
-        },
-        {
-            "quote":"[When asked why are numbers beautiful?] It’s like asking why is Ludwig van Beethoven’s Ninth Symphony beautiful. If you don't see why, someone can't tell you. I know numbers are beautiful. If they aren't beautiful, nothing is.",
-            "author":"Paul Erdos"
-        },
-        {
-            "quote":"Logic, n. The art of thinking and reasoning in strict accordance with the limitations and incapacities of the human misunderstanding. The basic of logic is the syllogism, consisting of a major and a minor premise and a conclusion - thus:\nMajor Premise: Sixty men can do a piece of work sixty times as quickly as one man.\nMinor Premise: One man can dig a post-hole in sixty seconds; Therefore-\nConclusion: Sixty men can dig a post-hole in one second.\nThis may be called syllogism arithmetical, in which, by combining logic and mathematics, we obtain a double certainty and are twice blessed.",
-            "author":"Ambrose Bierce"
-        },
-        {
-            "quote":"They shouldn't be allowed to teach math so early in the morning.",
-            "author":"Kendare Blake"
-        },
+[
+    {
+        "quote":"Some mathematician, I believe, has said that true pleasure lies not in the discovery of truth, but in the search for it.",
+        "author":"Leo Tolstoy"
+    },
+    {
+        "quote":"Mathematics expresses values that reflect the cosmos, including orderliness, balance, harmony, logic, and abstract beauty.",
+        "author":"Deepak Chopra"
+    },
+    {
+        "quote":"I had a polynomial once. My doctor removed it.",
+        "author":"Michael Grant"
+    },
+    {
+        "quote":"The difference between the poet and the mathematician is that the poet tries to get his head into the heavens while the mathematician tries to get the heavens into his head.",
+        "author":"G.K. Chesterton"
+    },
+    {
+        "quote":"My first feeling was that there was no way to continue. Writing isn't like math;in math, two plus two always equals four no matter what your mood is like. With writing, the way you feel changes everything.",
+        "author":"Stephanie Meyer"
+    },
+    {
+        "quote":"I'm sorry to say that the subject I most disliked was mathematics. I have thought about it. I think the reason was that mathematics leaves no room for argument. If you made a mistake, that was all there was to it.",
+        "author":"Malcolm X"
+    },
+    {
+        "quote":"I know that two and two make four - and should be glad to prove it too if I could - though I must say if by any sort of process I could convert 2 and 2 into five it would give me much greater pleasure.",
+        "author":"Lord George Gordon Byron"
+    },
+    {
+        "quote":"I couldn't claim that I was smarter than sixty-five other guys--but the average of sixty-five other guys, certainly!",
+        "author":"Richard P. Feynman"
+    },
+    {
+        "quote":"Solving a problem for which you know there’s an answer is like climbing a mountain with a guide, along a trail someone else has laid. In mathematics, the truth is somewhere out there in a place no one knows, beyond all the beaten paths. And it’s not always at the top of the mountain. It might be in a crack on the smoothest cliff or somewhere deep in the valley.",
+        "author":"Yoko Ogawa"
+    },
+    {
+        "quote":"But in my opinion, all things in nature occur mathematically.",
+        "author":"Rene Decartes"
+    },
+    {
+        "quote":"Since the mathematicians have invaded the theory of relativity I do not understand it myself any more.",
+        "author":"Albert Einstein"
+    },
+    {
+        "quote":"[When asked why are numbers beautiful?] It’s like asking why is Ludwig van Beethoven’s Ninth Symphony beautiful. If you don't see why, someone can't tell you. I know numbers are beautiful. If they aren't beautiful, nothing is.",
+        "author":"Paul Erdos"
+    },
+    {
+        "quote":"Logic, n. The art of thinking and reasoning in strict accordance with the limitations and incapacities of the human misunderstanding. The basic of logic is the syllogism, consisting of a major and a minor premise and a conclusion - thus:\nMajor Premise: Sixty men can do a piece of work sixty times as quickly as one man.\nMinor Premise: One man can dig a post-hole in sixty seconds; Therefore-\nConclusion: Sixty men can dig a post-hole in one second.\nThis may be called syllogism arithmetical, in which, by combining logic and mathematics, we obtain a double certainty and are twice blessed.",
+        "author":"Ambrose Bierce"
+    },
+    {
+        "quote":"They shouldn't be allowed to teach math so early in the morning.",
+        "author":"Kendare Blake"
+    },
         {
             "quote":"Physics depends on a universe infinitely centred on an equals sign.",
             "author":"Mark Z. Danielewski"
@@ -944,82 +943,81 @@
         {
             "quote":"A beautiful problem is like a funny joke.",
             "author":"Daniel Ullman"
+    },
+    {
+        "quote":"A beautiful problem is no joke!",
+        "author":"Marvin Knopp"
+    },
+    {
+        "quote":"Mathematics is an escape from reality.",
+        "author":"Stanislaw Ulam"
+    },
+    {
+        "quote":"Phyllis explained to him, trying to give of her deeper self, 'Don't you find it so beautiful, math? Like an endless sheet of gold chains, each link locked into the one before it, the theorems and functions, one thing making the next inevitable. It's music, hanging there in the middle of space, meaning nothing but itself, and so moving...'",
+        "author":"John Updike"
+    },
+    {
+        "quote":"'What my brain doesn't quite get,' Owen persisted, elevating himself to Cantor's class of mental fragility, 'is why it was such a big deal when Russell and Gödel found these internal contradictions or paradoxes--as Klein points out, the confusion is basically semantic. I don't see what undecidability has to do with the history of the computer.' 'I mean,' he said, ' so what if there exists a set of sets that are not members of themselves, which makes it a set that both is and isn't a member of itself?' 'But Owen, dear,' Phyllis said, 'the antinomies--the paradoxes--undermine classical logic, but the way they have to be phrased brings us to symbolic logic, which brings in Boolean math and the Turing machine and algorithms. Undecidability is like knowing you have a swamp and having to invent methods to build on it anyway. It's like the Back Bay on all its pilings,' she said...",
+        "author":"John Updike"
+    },
+    {
+        "quote":"A lack of seriousness has led to all sorts of wonderful insights.",
+        "author":"Kurt Vonnegut"
+    },
+    {
+        "quote":"A mathematician who is not also something of a poet will never be a complete mathematician.",
+        "author":"Karl Weierstrass"
+    },
+    {
+        "quote":"Every mathematician worthy of the name has experienced, if only rarely, the state of lucid exaltation in which one thought succeeds another as if miraculously, and in which the unconscious (however one interprets that word) seems to play a role.",
+        "author":"Andre Weil"
+    },
+    {
+        "quote":"That's all well and good in practice, but how does it work in theory?",
+        "author":"Shmuel Weinberger"
         },
         {
-            "quote":"A beautiful problem is no joke!",
-            "author":"Marvin Knopp"
+        "quote":"My work always tried to unite the true with the beautiful, but when I had to choose one or the other, I usually chose the beautiful.",
+        "author":"Hermann Weyl"
         },
         {
-            "quote":"Mathematics is an escape from reality.",
-            "author":"Stanislaw Ulam"
+        "quote":"We think in generalities, but we live in details.",
+        "author":"Alfred North Whitehead"
         },
         {
-            "quote":"Phyllis explained to him, trying to give of her deeper self, 'Don't you find it so beautiful, math? Like an endless sheet of gold chains, each link locked into the one before it, the theorems and functions, one thing making the next inevitable. It's music, hanging there in the middle of space, meaning nothing but itself, and so moving...'",
-            "author":"John Updike"
+        "quote":"The pursuit of mathematics is a divine madness of the human spirit.",
+        "author":"Alfred North Whitehead"
         },
         {
-            "quote":"'What my brain doesn't quite get,' Owen persisted, elevating himself to Cantor's class of mental fragility, 'is why it was such a big deal when Russell and Gödel found these internal contradictions or paradoxes--as Klein points out, the confusion is basically semantic. I don't see what undecidability has to do with the history of the computer.' 'I mean,' he said, ' so what if there exists a set of sets that are not members of themselves, which makes it a set that both is and isn't a member of itself?' 'But Owen, dear,' Phyllis said, 'the antinomies--the paradoxes--undermine classical logic, but the way they have to be phrased brings us to symbolic logic, which brings in Boolean math and the Turing machine and algorithms. Undecidability is like knowing you have a swamp and having to invent methods to build on it anyway. It's like the Back Bay on all its pilings,' she said...",
-            "author":"John Updike"
+        "quote":"Fundamental progress has to do with the reinterpretation of basic ideas.",
+        "author":"Alfred North Whitehead"
         },
         {
-            "quote":"A lack of seriousness has led to all sorts of wonderful insights.",
-            "author":"Kurt Vonnegut"
+        "quote":"Order is not sufficient. What is required, is something much more complex. It is order entering upon novelty; so that the massiveness of order does not degenerate into mere repetition; and so that the novelty is always reflected upon a background of system.",
+        "author":"Alfred North Whitehead"
         },
         {
-            "quote":"A mathematician who is not also something of a poet will never be a complete mathematician.",
-            "author":"Karl Weierstrass"
+        "quote":"A generating function is a clothesline on which we hang up a sequence of numbers for display.",
+        "author":"Herbert Wilf"
         },
         {
-            "quote":"Every mathematician worthy of the name has experienced, if only rarely, the state of lucid exaltation in which one thought succeeds another as if miraculously, and in which the unconscious (however one interprets that word) seems to play a role.",
-            "author":"Andre Weil"
+        "quote":"The full beauty of the subject of generating functions emerges only from tuning in on both channels: the discrete and the continuous.",
+        "author":"Herbert Wilf"
         },
         {
-            "quote":"That's all well and good in practice, but how does it work in theory?",
-            "author":"Shmuel Weinberger"
+        "quote":"Induction makes you feel guilty for getting something out of nothing, and it is artificial, but it is one of the greatest ideas of civilization.",
+        "author":"Herbert Wilf"
         },
-        {
-            "quote":"My work always tried to unite the true with the beautiful, but when I had to choose one or the other, I usually chose the beautiful.",
-            "author":"Hermann Weyl"
-        },
-        {
-            "quote":"We think in generalities, but we live in details.",
-            "author":"Alfred North Whitehead"
-        },
-        {
-            "quote":"The pursuit of mathematics is a divine madness of the human spirit.",
-            "author":"Alfred North Whitehead"
-        },
-        {
-            "quote":"Fundamental progress has to do with the reinterpretation of basic ideas.",
-            "author":"Alfred North Whitehead"
-        },
-        {
-            "quote":"Order is not sufficient. What is required, is something much more complex. It is order entering upon novelty; so that the massiveness of order does not degenerate into mere repetition; and so that the novelty is always reflected upon a background of system.",
-            "author":"Alfred North Whitehead"
-        },
-        {
-            "quote":"A generating function is a clothesline on which we hang up a sequence of numbers for display.",
-            "author":"Herbert Wilf"
-        },
-        {
-            "quote":"The full beauty of the subject of generating functions emerges only from tuning in on both channels: the discrete and the continuous.",
-            "author":"Herbert Wilf"
-        },
-        {
-            "quote":"Induction makes you feel guilty for getting something out of nothing, and it is artificial, but it is one of the greatest ideas of civilization.",
-            "author":"Herbert Wilf"
-        },
-        {
-            "quote":"1/r^2 has a nasty singularity at r=0, but it did not bother Newton--the Moon is far enough.",
-            "author":"Edward Witten"
-        },
-        {
-            "quote":"All means (even continuous) sanctify the discrete end.",
-            "author":"Doron Zeilberger"
-        },
-        {
-            "quote":"Many years ago, I once said, in a talk, 'a direct combinatorial proof is like sex. If it is good, then it is great. If it is bad, then it is still better than nothing'. I am no longer so sure. I still think that direct combinatorial proofs are like sex, except that both bad sex and bad combinatorial proofs are worse than nothing.",
-            "author":"Doron Zeilberger"
-        }
-    ]
-}
+    {
+        "quote":"1/r^2 has a nasty singularity at r=0, but it did not bother Newton--the Moon is far enough.",
+        "author":"Edward Witten"
+    },
+    {
+        "quote":"All means (even continuous) sanctify the discrete end.",
+        "author":"Doron Zeilberger"
+    },
+    {
+        "quote":"Many years ago, I once said, in a talk, 'a direct combinatorial proof is like sex. If it is good, then it is great. If it is bad, then it is still better than nothing'. I am no longer so sure. I still think that direct combinatorial proofs are like sex, except that both bad sex and bad combinatorial proofs are worse than nothing.",
+        "author":"Doron Zeilberger"
+    }
+]

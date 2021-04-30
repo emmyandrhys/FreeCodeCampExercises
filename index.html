@@ -22,33 +22,34 @@
             </ul>
         </footer>
     </body>
-    <script>
-        //when #new-quote button clicked, fetch and display a new quote in #text and #author
-        // set up variables
-        const endpoint ='/quotes.json';
-        const quotes= []
-        fetch(endpoint)
-            .then(blob=>blob.json())
-            .then(data=>quotes.push(...data));
+    <script type="text/javascript" source="https://raw.githubusercontent.com/emmyandrhys/FreeCodeCampExercises/master/quotes.json"></script>
+  <!--  <script type="text/javascript" source="script.js"></script> -->
+  <script>
+      //when #new-quote button clicked, fetch and display a new quote in #text and #author
+// set up variables
+const endpoint ="https://raw.githubusercontent.com/emmyandrhys/FreeCodeCampExercises/master/quotes.json";
+const quotes= []
+fetch(endpoint)
+    .then(blob=>blob.json())
+    .then(data=>quotes.push(...data));
+    console.log(endpoint)
 
-        const quoteText= document.querySelector('.text');
-        const quoteAuthor=document.querySelector('.author');
-        const newQuote=document.querySelector('.new-quote');
+const quoteText= document.querySelector('.text');
+const quoteAuthor=document.querySelector('.author');
+const newQuote=document.querySelector('.new-quote');
 
-        // function to display a random quote and author
-        function randomQuote() {
-            var index=parseInt(Math.random() * quotes.length) - 1;
-            const quote=quotes[index]['quote'];
-            const author=quotes[index]['author'];
-            quoteText.innerHTML = quote;
-            quoteAuthor.innerHTML = author;
-        }
+// function to display a random quote and author
+function randomQuote() {
+    var index=parseInt(Math.random() * quotes.length) - 1;
+    const quote=quotes[index]['quote'];
+    const author=quotes[index]['author'];
+    quoteText.innerHTML = quote;
+    quoteAuthor.innerHTML = author;
+}
 
-        //first load displays random quote in #text and author in #author
-        window.onload = randomQuote();
-        // listener for need to display a new quote
-        newQuote.addEventListener('click', randomQuote);
-
-
-    </script>
+//first load displays random quote in #text and author in #author
+window.onload = randomQuote();
+// listener for need to display a new quote
+newQuote.addEventListener('click', randomQuote);
+  </script>
 </html>
