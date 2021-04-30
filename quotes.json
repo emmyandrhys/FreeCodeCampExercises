@@ -1,0 +1,1025 @@
+
+{
+    "mathQuotes":[
+        {
+            "quote":"Some mathematician, I believe, has said that true pleasure lies not in the discovery of truth, but in the search for it.",
+            "author":"Leo Tolstoy"
+        },
+        {
+            "quote":"Mathematics expresses values that reflect the cosmos, including orderliness, balance, harmony, logic, and abstract beauty.",
+            "author":"Deepak Chopra"
+        },
+        {
+            "quote":"I had a polynomial once. My doctor removed it.",
+            "author":"Michael Grant"
+        },
+        {
+            "quote":"The difference between the poet and the mathematician is that the poet tries to get his head into the heavens while the mathematician tries to get the heavens into his head.",
+            "author":"G.K. Chesterton"
+        },
+        {
+            "quote":"My first feeling was that there was no way to continue. Writing isn't like math;in math, two plus two always equals four no matter what your mood is like. With writing, the way you feel changes everything.",
+            "author":"Stephanie Meyer"
+        },
+        {
+            "quote":"I'm sorry to say that the subject I most disliked was mathematics. I have thought about it. I think the reason was that mathematics leaves no room for argument. If you made a mistake, that was all there was to it.",
+            "author":"Malcolm X"
+        },
+        {
+            "quote":"I know that two and two make four - and should be glad to prove it too if I could - though I must say if by any sort of process I could convert 2 and 2 into five it would give me much greater pleasure.",
+            "author":"Lord George Gordon Byron"
+        },
+        {
+            "quote":"I couldn't claim that I was smarter than sixty-five other guys--but the average of sixty-five other guys, certainly!",
+            "author":"Richard P. Feynman"
+        },
+        {
+            "quote":"Solving a problem for which you know there’s an answer is like climbing a mountain with a guide, along a trail someone else has laid. In mathematics, the truth is somewhere out there in a place no one knows, beyond all the beaten paths. And it’s not always at the top of the mountain. It might be in a crack on the smoothest cliff or somewhere deep in the valley.",
+            "author":"Yoko Ogawa"
+        },
+        {
+            "quote":"But in my opinion, all things in nature occur mathematically.",
+            "author":"Rene Decartes"
+        },
+        {
+            "quote":"Since the mathematicians have invaded the theory of relativity I do not understand it myself any more.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"[When asked why are numbers beautiful?] It’s like asking why is Ludwig van Beethoven’s Ninth Symphony beautiful. If you don't see why, someone can't tell you. I know numbers are beautiful. If they aren't beautiful, nothing is.",
+            "author":"Paul Erdos"
+        },
+        {
+            "quote":"Logic, n. The art of thinking and reasoning in strict accordance with the limitations and incapacities of the human misunderstanding. The basic of logic is the syllogism, consisting of a major and a minor premise and a conclusion - thus:\nMajor Premise: Sixty men can do a piece of work sixty times as quickly as one man.\nMinor Premise: One man can dig a post-hole in sixty seconds; Therefore-\nConclusion: Sixty men can dig a post-hole in one second.\nThis may be called syllogism arithmetical, in which, by combining logic and mathematics, we obtain a double certainty and are twice blessed.",
+            "author":"Ambrose Bierce"
+        },
+        {
+            "quote":"They shouldn't be allowed to teach math so early in the morning.",
+            "author":"Kendare Blake"
+        },
+        {
+            "quote":"Physics depends on a universe infinitely centred on an equals sign.",
+            "author":"Mark Z. Danielewski"
+        },  
+        {
+            "quote":"With me, everything turns into mathematics.",
+            "author":"Rene Descartes"
+        },
+        {
+            "quote":"Infinite is a meaningless word: except – it states / The mind is capable of performing / an endless process of addition.",
+            "author":"Louis Zukofsky"
+        },
+        {
+            "quote":"I think we need more math majors who don't become mathematicians. More math major doctors, more math major high school teachers, more math major CEOs, more math major senators. But we won't get there unless we dump the stereotype that math is only worthwhile for kid geniuses.",
+            "author":"Jordan Ellenberg"
+        },
+        {
+            "quote":"Soon after I began working for the Professor, I realized that he talked about numbers whenever he was unsure of what to say or do. Numbers were also his way of reaching out to the world. They were safe, a source of comfort.",
+            "author":"Yoko Ogana"
+        },
+        {
+            "quote":"The important thing to remember about mathematics is not to be frightened.",
+            "author":"Richard Dawkins"
+        },
+        {
+            "quote":"The land of easy mathematics where he who works adds up and he who retires subtracts.",
+            "author":"Nuria Ano"
+        },
+        {
+            "quote":"I have had my results for a long time: but I do not yet know how I am to arrive at them.",
+            "author":"Carl Friedrich Gauss"
+        },  
+        {
+            "quote":"Mathematics is the queen of science, and arithmetic the queen of mathematics.",
+            "author":"Carl Friedrich Gauss"
+        },
+        {
+            "quote":"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
+            "author":"John von Neumann"
+        },
+        {
+            "quote":"I have hardly ever known a mathematician who was capable of reasoning.",
+            "author":"Plato"
+        },
+        {
+            "quote":"Give me a place to stand, and I will move the earth.",
+            "author":"Archimedes"
+        },
+        {
+            "quote":"Perfect numbers like perfect men are very rare.",
+            "author":"Rene Decartes"
+        },
+        {
+            "quote":"If I have been able to see further, it was only because I stood on the shoulders of giants.",
+            "author":"Isaac Newton"
+        },
+        {
+            "quote":"Truth is ever to be found in the simplicity, and not in the multiplicity and confusion of things.",
+            "author":"Isaac Newton"
+        },  
+        {
+            "quote":"No employment can be managed without arithmetic, no mechanical invention without geometry.",
+            "author":"Benjamin Franklin"
+        },
+        {
+            "quote":"Where there is matter, there is geometry.",
+            "author":"Johannes Kepler"
+        },
+        {
+            "quote":"It is not certain that everything is uncertain.",
+            "author":"Blaise Pascal"
+        },
+        {
+            "quote":"Beauty is the first test: there is no permanent place in the world for ugly mathematics.",
+            "author":"G.H. Hardy"
+        },
+        {
+            "quote":"The essence of mathematics lies in its freedom.",
+            "author":"Georg Cantor"
+        },
+        {
+            "quote":"Mathematics is the art of giving the same name to different things.",
+            "author":"G.H. Hardy"
+        },
+        {
+            "quote":"Mathematics is the most beautiful and most powerful creation of human spirit.",
+            "author":"Stefan Banach"
+        },
+        {
+            "quote":"Arithmetic is being able to count up to twenty without taking off your shoes.",
+            "author":"Mickey Mouse"
+        },
+        {
+            "quote":"A mathematician is a blind man in a dark room looking for a black cat which isn't there.",
+            "author":"Charles Darwin"
+        },  
+        {
+            "quote":"Algebraic symbols are used when you do not know what you are talking about.",
+            "author":"Philippe Schoebelen"
+        },
+        {
+            "quote":"If there is a 50-50 chance that something can go wrong, then 9 times out of ten it will.",
+            "author":"Paul Harvey"
+        },
+        {
+            "quote":"42. (The answer to life, the universe, and everything.)",
+            "author":"Douglas Adams"
+        },
+        {
+            "quote":"It is an important and popular fact that things are not always as what they seem. For instance, on the planet earth, man has always assumed that he was more intelligent than dolphins because he had achieved so much: the wheel, New York, wars. [...] But conversely, the dolphins had always believed that they were far more intelligent than men; for precisely the same reasons.",
+            "author":"Douglas Adams"
+        },
+        {
+            "quote":"Mathematics is less related to accounting than it is to philosophy.",
+            "author":"Leonard Adleman"
+        },
+        {
+            "quote":"What if everything is an illusion and nothing exists? In that case, I definitely overpaid for my carpet.",
+            "author":"Woody Allen"
+        },
+        {
+            "quote":"If you don't like your analyst, see your local algebraist!",
+            "author":"Gert Almkvist"
+        },
+        {
+            "quote":"Probable impossibilities are to be preferred to improbable possibilities.",
+            "author":"Aristotle"
+        },
+        {
+            "quote":"It is my experience that proofs involving matrices can be shortened by 50% if one throws the matrices out.",
+            "author":"E. Artin"
+        },
+        {
+            "quote":"Combinatorial analysis, in the trivial sense of manipulating binomial and multinomial coefficients, and formally expanding powers of infinite series by applications ad libitum and ad nauseamque of the multinomial theorem, represented the best that academic mathematics could do in the Germany of the late 18th century.",
+            "author":"Richard Askey"
+        },
+        {
+            "quote":"If things are nice there is probably a good reason why they are nice: and if you do not know at least one reason for this good fortune, then you still have work to do.",
+            "author":"Richard Askey"
+        },
+        {
+            "quote":"In the broad light of day mathematicians check their equations and their proofs, leaving no stone unturned in their search for rigour. But, at night, under the full moon, they dream, they float among the stars and wonder at the miracle of the heavens. They are inspired. Without dreams there is no art, no mathematics, no life.",
+            "author":"Michael Atiya"
+        },
+        {
+            "quote":"Spending time with math people is a lot of fun. As a result of the play, I've had semi-drunken dinners with mathematicians all over the country. I recommend the experience.",
+            "author":"David Auburn"
+        },
+        {
+            "quote":"The irreducible price of learning is realizing that you do not know.",
+            "author":"James Baldwin"
+        },
+        {
+            "quote":"If a 'religion' is defined to be a system of ideas that contains unprovable statements, then Gödel taught us that mathematics is not only a religion, it is the only religion that can prove itself to be one.",
+            "author":"John Barrow"
+        },
+        {
+            "quote":"It takes a village to count integer points.",
+            "author":"Alexander Barvinok"
+        },
+        {
+            "quote":"Lattice points are like cockroaches, if you see one, you know there are a lot of others hiding around.",
+            "author":"Alexander Barvinok"
+        },
+        {
+            "quote":"This algorithm has been proved to work, but has never been observed to do so.",
+            "author":"Alexander Barvinok"
+        },
+        {
+            "quote":"One and one and one is three.",
+            "author":"The Beatles"
+        },
+        {
+            "quote":"Obvious is the most dangerous word in mathematics.",
+            "author":"E.T. Bell"
+        },
+        {
+            "quote":"Mathematics is a collection of cheap tricks and dirty jokes.",
+            "author":"Lipman Bers"
+        },
+        {
+            "quote":"Life is the twofold internal movement of composition and decomposition at once general and continuous.",
+            "author":"Henri de Blainville"
+        },
+        {
+            "quote":"There are two versions of math in the lives of many Americans: the strange and boring subject that they encountered in classrooms and an interesting set of ideas that is the math of the world, and is curiously different and surprisingly engaging. Our task is to introduce this second version to today's students, get them excited about math, and prepare them for the future.",
+            "author":"Jo Boaler"
+        },
+        {
+            "quote":"Suppose that you want to teach the 'cat' concept to a very young child. Do you explain that a cat is a relatively small, primarily carnivorous mammal with retractible claws, a distinctive sonic output, etc.? I'll bet not. You probably show the kid a lot of different cats, saying 'kitty' each time, until it gets the idea. To put it more generally, generalizations are best made by abstraction from experience.",
+            "author":"R.P. Boas"
+        },
+        {
+            "quote":"We all agree that your theory is crazy, but is it crazy enough?",
+            "author":"Niels Bohr"
+        },
+        {
+            "quote":"We haven't the money, so we have to think.",
+            "author":"Ernst Rutherford"
+        },
+        {
+            "quote":"My special pleasure in mathematics rested particularly on its purely speculative part.",
+            "author":"Bernhard Bolzano"
+        },
+        {
+            "quote":"Mathematics as we know it and as it has come to shape modern science could never have come into being without some disregard for the dangers of the infinite.",
+            "author":"David Bressoud"
+        },
+        {
+            "quote":"There are no problems, just pauses between ideas.",
+            "author":"The Brotherhood of the Rose"
+        },
+        {
+            "quote":"Abstraction consists essentially in the creation and utilization of ambiguity.",
+            "author":"William Byers"
+        },
+        {
+            "quote":"Logic moves in one direction, the direction of clarity, coherence and structure. Ambiguity moves in the other direction, that of fluidity, openness, and release. Mathematics moves back and forth between these two poles. [...] It is the interaction between these different aspects that gives mathematics its power.",
+            "author":"William Byers"
+        },
+        {
+            "quote":"The essence of mathematics resides in its freedom.",
+            "author":"Georg Cantor"
+        },
+        {
+            "quote":"To ask the right question is harder than to answer it.",
+            "author":"Georg Cantor"
+        },
+        {
+            "quote":"Alice laughed: 'There's no use trying,' she said; 'one can't believe impossible things.' 'I daresay you haven't had much practice,' said the Queen. 'When I was younger, I always did it for half an hour a day. Why, sometimes I've believed as many as six impossible things before breakfast.'",
+            "author":"Lewis Carroll"
+        },
+        {
+            "quote":"'And what is the use of a book,' thought Alice, 'without pictures or conversations?'",
+            "author":"Lewis Carroll"
+        },
+        {
+            "quote":"'Where shall I begin' he asked. 'Begin at the beginning', the king said, 'and stop when you get to an end.'",
+            "author":"Lewis Carroll"
+        },
+        {
+            "quote":"The peculiar interest of magic squares and all lusus numerorum in general lies in the fact that they possess the charm of mystery. They appear to betray some hidden intelligence which by a preconceived plan produces the impression of intentional design, a phenomenon which finds its close analogue in nature.",
+            "author":"Paul Carus"
+        },
+        {
+            "quote":"First, it is necessary to study the facts, to multiply the number of observations, and then later to search for formulas that connect them so as thus to discern the particular laws governing a certain class of phenomena. In general, it is not until after these particular laws have been established that one can expect to discover and articulate the more general laws that complete theories by bringing a multitude of apparently very diverse phenomena together under a single governing principle.",
+            "author":"Augustin Louis Cauchy"
+        },
+        {
+            "quote":"I'm a mathematical optimist: I deal only with positive integers.",
+            "author":"Tendai Chitewere"
+        },
+        {
+            "quote":"The hardest thing being with a mathematician is that they always have problems.",
+            "author":"Tendai Chitewere"
+        },
+        {
+            "quote":"Everyone engaged in research must have had the experience of working with feverish and prolonged intensity to write a paper which no one else will read or to solve a problem which no one else thinks important and which will bring no conceivable reward -- which may only confirm a general opinion that the researcher is wasting his time on irrelevancies.",
+            "author": "Noam Chomsky"
+        },
+        {
+            "quote":"I saw, as one might see the transit of Venus, a quantity passing through infinity and changing its sign from plus to minus. I saw exactly how it happened... but it was after dinner and I let it go.",
+            "author": "Winston Churchill"
+        },
+        {
+            "quote":"11:15 Restate my assumptions:\n1. Mathematics is the language of nature.\n2. Everything around us can be represented and understood through numbers.\n3. If you graph these numbers, patterns emerge. Therefore: There are patterns everywhere in nature.",
+            "author":"Max Cohen"
+        },
+        {
+            "quote":"To many, mathematics is a collection of theorems. For me, mathematics is a collection of examples; a theorem is a statement about a collection of examples and the purpose of proving theorems is to classify and explain the examples...",
+            "author":"John B. Conway"
+        },
+        {
+            "quote":"I hate algebra.",
+            "author":"John H. Conway"
+        },
+        {
+            "quote":"I have photographed many people: artists, writers, and scientists, among others. In speaking about their work, mathematicians use the words 'elegance', 'truth', and 'beauty' more than everyone else combined.",
+            "author":"Mariana Cook"
+        },
+        {
+            "quote":"The mathematical phenomenon always develops out of simple arithmetic, so useful in everyday life, out of numbers, those weapons of the gods: the gods are there, behind the wall, at play with numbers.",
+            "author":"Le Corbusier"
+        },
+        {
+            "quote":"Mathematicians care no more for logic than logicians for mathematics.",
+            "author":"Augustus De Morgan"
+        },
+        {
+            "quote":"Basically, what we did the last four weeks was speed-dating polytopes.",
+            "author":"Jessica De Silva"
+        },
+        {
+            "quote":"I certainly do care about measuring educational results. But what is an 'educational result?' The twinkling eyes of my students, together with their heartfelt and beautifully expressed mathematical arguments are all the results I need.",
+            "author":"Keith Devlin"
+        },
+        {
+            "quote":"The grand thing is to be able to reason backwards.",
+            "author":"Arthur Conan Doyle"
+        },
+        {
+            "quote":"A lot of mathematicians are a little bit strange in one way or another. It goes with creativity.",
+            "author":"Peter Duren"
+        },
+        {
+            "quote":"Suppose that we think of the integers lined up like dominoes. The inductive step tells us that they are close enough for each domino to knock over the next one, the base case tells us that the first domino falls over, the conclusion is that they all fall over. The fault in this analogy is that it takes time for each domino to fall and so a domino which is a long way along the line won't fall over for a long time. Mathematical implication is outside time.",
+            "author":"Peter J. Eccles"
+        },
+        {
+            "quote":"I have not failed. I've just found 10,000 ways that won't work.",
+            "author":"Thomas Alva Edison"
+        },
+        {
+            "quote":"Everything should be made as simple as possible, but not simpler.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"Pure mathematics is, in its way, the poetry of logical ideas.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"Not everything that can be counted counts, and not everything that counts can be counted.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"Do not worry too much about your difficulties in mathematics, I can assure you that mine are still greater.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"I never think of the future--it comes soon enough.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"Imagination is more important than knowledge.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"It's not that I'm so smart. It's just that I spent more time on problems.",
+            "author":"Albert Einstein"
+        },
+        {
+            "quote":"The secret to education is respecting the pupil.",
+            "author":"Ralph Waldo Emerson"
+        },
+        {
+            "quote":"Analysis is the art of taming infinity.",
+            "author":"Neil Falkner"
+        },
+        {
+            "quote":"One cannot understand... the universality of laws of nature, the relationship of things, without an understanding of mathematics. There is no other way to do it.",
+            "author":"Richard P. Feynman"
+        },
+        {
+            "quote":"Education's purpose is to replace an empty mind with an open one.",
+            "author":"Malcolm Forbes"
+        },
+        {
+            "quote":"Spoon feeding, in the long run teaches us nothing but the shape of the spoon.",
+            "author":"E. M. Forster"
+        },
+        {
+            "quote":"Mathematics compares the most diverse phenomena and discovers the secret analogies that unite them.",
+            "author":"Jean Baptiste Joseph Fourier"
+        },
+        {
+            "quote":"When I am working on a problem I never think about beauty. I only think about how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.",
+            "author":"Buckminster Fuller"
+        },
+        {
+            "quote":"Everything you've learned in school as 'obvious' becomes less and less obvious as you begin to study the universe. For example, there are no solids in the universe. There's not even a suggestion of a solid. There are no absolute continuums. There are no surfaces. There are no straight lines.",
+            "author":"Buckminster Fuller"
+        },
+        {
+            "quote":"When people tell you something's wrong or doesn't work for them, they are almost always right. When they tell you exactly what they think is wrong and how to fix it, they are almost always wrong.",
+            "author":"Neil Gaiman"
+        },
+        {
+            "quote":"Philosophy is written in this grand book--I mean the universe--which stands continually open to our gaze, but it cannot be understood unless one first learns to comprehend the language and interpret the characters in which it is written. It is written in the language of mathematics, and its characters are triangles, circles, and other geometric figures, without which it is humanly impossible to understand a single word of it.",
+            "author":"Galileo Galilei"
+        },
+        {
+            "quote":"When I give this talk to a physics audience, I remove the quotes from my 'Theorem'.",
+            "author":"Brian Greene"
+        },
+        {
+            "quote":"For the delay in preparing this article the authors apologize to their readers and to each other.",
+            "author":"Curtis Greene & Tom Zaslavsky"
+        },
+        {
+            "quote":"The fact that we're humans is really pretty limiting. I mean, we didn't evolve to understand the structure of the space-time continuum or do things in 100,000 dimensions. We know how to stay out of the rain and keep [from] getting eaten by animals.",
+            "author":"Ron Graham"
+        },
+        {
+            "quote":"Bart: Hey, Houdini! Why don't you saw Martin in half?\nMagician: Oh, I'm not the kind of magician who does tricks. I'm a mathemagician!\n[Kids groan]\nMagician: Now, prepare to marvel at the mysteries of the universe, as I make this remainder disappear. [writes 7 goes into 28 three times]\nLisa: But 7 goes into 28 four times.\nMagician: Uh, this is a magic 7.",
+            "author":"The Simpsons"
+        },
+        {
+            "quote":"Apu: In fact I can recite pi to 40000 places. The last digit is one!\nHomer: Mmmm, pie.",
+            "author":"The Simpsons"
+        },
+        {
+            "quote":"Homer: This time tomorrow, you'll be wearing high heels!\nNed: Nope, you will.\nHomer: 'Fraid not.\nNed: 'Fraid so!\nHomer: 'Fraid not.\nNed: 'Fraid so!\nHomer: 'Fraid not infinity!\nNed: 'Fraid so infinity plus one!\nHomer: D'oh!",
+            "author":"The Simpsons"
+        },
+        {
+            "quote":"Internet Guy: Your stock is at zero.\nBart: But I have 52 million shares! What's 52 million times zero?! And don't tell me it's zero!",
+            "author":"The Simpsons"
+        },
+        {
+            "quote":"(Homer has disappeared into a wall in the living room.)\nLisa: Well, where's my dad?\nFrink: Well, it should be obvious to even the most dimwitted individual who holds an advanced degree in hyperbolic topology, n'gee, that Homer Simpson has stumbled into...[the lights go off] the third dimension.\nLisa: [flips the light switch back] Sorry.\nFrink: [drawing on a blackboard] Here is an ordinary square....\nWiggum: Whoa, whoa--slow down, egghead!\nFrink: ... but suppose we extend the square beyond the two dimensions of our universe, along the hypothetical z-axis, there.\nEveryone: [gasps]\nFrink: This forms a three-dimensional object known as a 'cube,' or a 'Frinkahedron' in honor of its discoverer, n'hey, n'hey.\nHomer's voice: Help me! Are you helping me, or are you going on and on?\nFrink: Oh, right. And, of course, within, we find the doomed individual.",
+            "author":"Matt Groening"
+        },
+        {
+            "quote":"The shortest route between two truths in the real domain passes through the complex domain.",
+            "author":"Jacques Salomon Hadamard"
+        },
+        {
+            "quote":"Combinatorics is not a science, it's an attitude.",
+            "author":"Mark Haiman"
+        },
+        {
+            "quote":"The only way to learn mathematics is to do mathematics.",
+            "author":"Paul Halmos"
+        },
+        {
+            "quote":"A good stock of examples, as large as possible, is indispensable for a thorough understanding of any concept, and when I want to learn something new, I make it my first job to build one.",
+            "author":"Paul Halmos"
+        },
+        {
+            "quote":"The purpose of computation is insight, not numbers.",
+            "author":"Richard Hamming"
+        },
+        {
+            "quote":"There is a pretty good correlation between those who work with the doors open and those who ultimately do important things, although people who work with doors closed often work harder.",
+            "author":"Richard Hamming"
+        },
+        {
+            "quote":"Inspiration is constantly in the air. It's up to us to develop the sensitivity to pick up on it.",
+            "author":"Herbie Hancock"
+        },
+        {
+            "quote":"One good thing about teaching calculus is that you develop a hardened attitude towards repeating yourself.",
+            "author":"Phil Hanlon"
+        },
+        {
+            "quote":"I believe that mathematical reality lies outside us, that our function is to discover or observe it, and that the theorems which we prove, and which we describe grandiloquently as our 'creations,' are simply the notes of our observations.",
+            "author":"Godfrey Harold Hardy"
+        },
+        {
+            "quote":"The mathematician's patterns, like those of the painter's or the poet's, must be beautiful; the ideas, like the colours or the words, must fit together in a harmonious way.",
+            "author":"Godfrey Harold Hardy"
+        },
+        {
+            "quote":"The student of mathematics has to develop a tolerance for ambiguity. Pedantry can be the enemy of insight.",
+            "author":"Gila Hanna"
+        },
+        {
+            "quote":"The whole purpose of education is to turn mirrors into windows.",
+            "author":"Sydney J. Harris"
+        },
+        {
+            "quote":"One of the big misapprehensions about mathematics that we perpetrate in our classrooms is that the teacher always seems to know the answer to any problem that is discussed. This gives students the idea that there is a book somewhere with all the right answers to all of the interesting questions, and that teachers know those answers. And if one could get hold of the book, one would have everything settled. That's so unlike the true nature of mathematics.",
+            "author":"Leon Henkin"
+        },
+        {
+            "quote":"I believe that numbers and functions of Analysis are not the arbitrary result of our minds; I think that they exist outside of us, with the same character of necessity as the things of objective reality, and we meet them or discover them, and study them, as do the physicists, the chemists and the zoologists.",
+            "author":"Charles Hermite"
+        },
+        {
+            "quote":"I wrote a few papers on Koszul algebras, but I really don't understand the definition of Koszul algebras.",
+            "author":"Takayuki Hibi"
+        },
+        {
+            "quote":"Mathematics is for lazy people.",
+            "author":"Peter Hilton"
+        },
+        {
+            "quote":"Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.",
+            "author":"Sherlock Holmes (by Sir Arthur Conan Doyle)"
+        },
+        {
+            "quote":"'Data! Data! Data!' he cried, impatiently. 'I can't make bricks without clay'.",
+            "author":"Sherlock Holmes (by Sir Arthur Conan Doyle)"
+        },
+        {
+            "quote":"Good judgement comes from experience. Experience comes from bad judgement.",
+            "author":"Jim Horning"
+        },
+        {
+            "quote":"Here we will outline what is involved in the computations and list our answers. The details are available from the author on request. The author does hope someone will check the calculations, because he does not have a great deal of faith in his ability to carry through the details in a fault-free manner. He hopes however that the answers are qualitatively correct as stated.",
+            "author":"Roger Howe"
+        },
+        {
+            "quote":"For a list of all the ways technology has failed to improve the quality of life, please press three.",
+            "author":"Alice Kahn"
+        },
+        {
+            "quote":"Counting pairs is the oldest trick in combinatorics... Every time we count pairs, we learn something from it.",
+            "author":"Gil Kalai"
+        },
+        {
+            "quote":"Mathematics is an activity governed by the same rules imposed upon the symphonies of Beethoven, the paintings of DaVinci, and the poetry of Homer.",
+            "author":"Edward Kasner and James Newman"
+        },
+        {
+            "quote":"Geometry is the archetype of the beauty of the world.",
+            "author":"Johannes Kepler"
+        },
+        {
+            "quote":"If you had done something twice, you are likely to do it again.",
+            "author":"Brian Kernighan and Bob Pike"
+        },
+        {
+            "quote":"Mathematics is, in many ways, the most precious response that the human spirit has made to the call of the infinite.",
+            "author":"Cassius J. Keyser"
+        },
+        {
+            "quote":"A good talk contains no proofs; a great talk contains no theorems.",
+            "author":"VictorKlee"
+        },
+        {
+            "quote":"Mathematical proofs should only be communicated in private and to consenting adults.",
+            "author":"Victor Klee"
+        },
+        {
+            "quote":"The worst thing you can do to a problem is solve it completely.",
+            "author":"Daniel Kleitman"
+        },
+        {
+            "quote":"If you're using the same notation for everything, you're never wrong.",
+            "author":"Daniel Kleitman"
+        },
+        {
+            "quote":"Science is what we understand well enough to explain to a computer, Art is all the rest.",
+            "author":"Donald E. Kluth"
+        },
+        {
+            "quote":"I have been a happy man ever since January 1, 1990, when I no longer had an email address. I'd used email since about 1975, and it seems to me that 15 years of email is plenty for one lifetime.",
+            "author":"Donald E. Knuth"
+        },
+        {
+            "quote":"In L_infinity there is a lot of room for shortest vectors.",
+            "author":"Matthias Köppe"
+        },
+        {
+            "quote":"Fix N, say, some small number. [Writes N = 300000 on the board]",
+            "author":"Matthias Köppe"
+        },
+        {
+            "quote":"The greatest reward for a student is not a good grade. It is the willingness of his teacher to listen to him.",
+            "author":"Nikolay Konstantinov"
+        },
+        {
+            "quote":"Number theorists are like lotus-eaters--having tasted this food they can never give it up.",
+            "author":"Leopold Kronecker"
+        },
+        {
+            "quote":"The imaginary number is a fine and wonderful resource of the human spirit, almost an amphibian between being and not being.",
+            "author":"Gottfried Wilhelm Leibniz"
+        },
+        {
+            "quote":"Music is the pleasure the human mind experiences from counting without being aware that it is counting.",
+            "author":"Gottfried Wilhelm Leibniz"
+        },
+        {
+            "quote":"Every dimension is special.",
+            "author":"Jeff Lagarias"
+        },
+        {
+            "quote":"Nature laughs at the difficulties of integration.",
+            "author":"Pierre-Simon de Laplace"
+        },
+        {
+            "quote":"I don't know where my ideas come from. I will admit, however, that one key ingredient is caffeine. I get a couple cups of coffee into me and weird things just start to happen.",
+            "author":"Gary Larson"
+        },
+        {
+            "quote":"Music is part of Number Theory. Nowadays when a number-theorist applies for a grant, he says that it is good for security, but in those days, way before America, he would say that it's good for music. I will not comment whether we have progressed...",
+            "author":"Hendrik Lenstra"
+        },
+        {
+            "quote":"Recreational number theory [...] is that part of number theory that is too difficult to study.",
+            "author":"Hendrik Lenstra"
+        },
+        {
+            "quote":"A math lecture without a proof is like a movie without a love scene. [pauses] This talk has two proofs.",
+            "author":"Hendrik Lenstra"
+        },
+        {
+            "quote":"A heavy warning used to be given that pictures are not rigorous; this has never had its bluff called and has permanently frightened its victims into playing for safety.",
+            "author":"John Edensor Littlewood"
+        },
+        {
+            "quote":"There is nothing as dreamy and poetic, nothing as radical, subversive, and psychedelic, as mathematics. It is every bit as mind blowing as cosmology or physics (mathematicians conceived of black holes long before astronomers actually found any), and allows more freedom of expression than poetry, art, or music (which depends heavily on properties of the physical universe). Mathematics is the purest of the arts, as well as the most misunderstood.",
+            "author":"Paul Lockhart"
+        },
+        {
+            "quote":"Math is the only place where truth and beauty mean the same thing.",
+            "author":"Danica McKellar"
+        },
+        {
+            "quote":"For every problem, there is one solution which is simple, neat, and wrong.",
+            "author":"H. L. Mencken"
+        },
+        {
+            "quote":"The [...] thing we evolutionary biologists don't do enough of [...] is make an emotional and moral case for the study of evolution. Last night, I concluded my talk with a quote from Dover, PA creationist school board member William Buckingham, who declared, 'Two thousand years ago someone died on a cross. Can't someone take a stand for him?' My response was, 'In the last two minutes, someone died from a bacterial infection. We take a stand for him.'",
+            "author":"Mike the Mad Biologist"
+        },
+        {
+            "quote":"Mathematical study and research are very suggestive of mountaineering. Whymper made several efforts before he climbed the Matterhorn in the 1860's and even then it cost the life of four of his party. Now, however, any tourist can be hauled up for a small cost, and perhaps does not appreciate the difficulty of the original ascent. So in mathematics, it may be found hard to realise the great initial difficulty of making a little step which now seems so natural and obvious, and it may not be surprising if such a step has been found and lost again.",
+            "author":"Louis Joel Mordell"
+        },
+        {
+            "quote":"But as Nature is the best guide, teaching must be the development of natural inclinations, for which purpose the teacher must watch his pupil and listen to him, not continually bawl words into his ears as if pouring water into a funnel. Good teaching will come from a mind well made rather than well filled.",
+            "author":"Michel de Montaigne"
+        },
+        {
+            "quote":"Young bloods can't spell but they can rock you in PlayStation this new math it whippin m&8%!2@*^#ers ass you wanna know how to rhyme you better learn how to add it's mathematics.",
+            "author":"Mos Def"
+        },
+        {
+            "quote":"Sometimes a good idea comes to you when you are not looking for it. Through an improbable combination of coincidence, naivete and lucky mistakes ...",
+            "author":"Kary Mullis"
+        },
+        {
+            "quote":"The world is continuous, but the mind is discrete.",
+            "author":"David Mumford"
+        },
+        {
+            "quote":"In mathematics you don't understand things. You just get used to them.",
+            "author":"John von Neumann"
+        },
+        {
+            "quote":"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
+            "author":"John von Neumann"
+        },
+        {
+            "quote":"Everyone else would climb a peak by looking for a path somewhere in the mountain. Nash would climb another mountain altogether and from that distant peak would shine a searchlight back onto the first peak.",
+            "author":"Donald Newman"
+        },
+        {
+            "quote":"If I have been able to see further, it was only because I stood on the shoulders of giants.",
+            "author":"Isaac Newton"
+        },
+        {
+            "quote":"Truth is ever to be found in the simplicity, and not in the multiplicity and confusion of things.",
+            "author":"Isaac Newton"
+        },
+        {
+            "quote":"I seem to have been only like a boy playing on the seashore, and diverting myself in now and then finding a smoother pebble or a prettier shell than ordinary, whilst the great ocean of truth lay all undiscovered before me.",
+            "author":"Isaac Newton"
+        },
+        {
+            "quote":"Critique the effectiveness of your lesson, not by what answers students give, but by what questions they ask.",
+            "author":"Fawn Nguyen"
+        },
+        {
+            "quote":"And those who were seen dancing were thought to be insane by those who could not hear the music.",
+            "author":"Friedrich Nietzsche"
+        },
+        {
+            "quote":"Contradiction is not a sign of falsity, nor the lack of contradiction a sign of truth.",
+            "author":"Blaise Pascal"
+        },
+        {
+            "quote":"It is not certain that everything is uncertain.",
+            "author":"Blaise Pascal"
+        },
+        {
+            "quote":"To speak freely of mathematics, I find it the highest exercise of the spirit; but at the same time I know that it is so useless that I make little distinction between a man who is only a mathematician and a common artisan. Also, I call it the most beautiful profession in the world; but it is only a profession.",
+            "author":"Blaise Pascal"
+        },
+        {
+            "quote":"We are usually convinced more easily by reasons we have found ourselves than by those which occurred to others.",
+            "author":"Blaise Pascal"
+        },
+        {
+            "quote":"This isn't right, this isn't even wrong.",
+            "author":"Wolfgang Pauli"
+        },
+        {
+            "quote":"Mathematicians are a bit like the laconic Vermonter who, when asked if he's lived in the state his whole life, replies, 'Not yet.'",
+            "author":"John Allen Paulos"
+        },
+        {
+            "quote":"The simple equations that generate the convoluted Mandelbrot fractal have been called the wittiest remarks ever made.",
+            "author":"John Allen Paulos"
+        },
+        {
+            "quote":"... and it is probably that there is some secret here which remains to be discovered.",
+            "author":"C. S. Peirce"
+        },
+        {
+            "quote":"Leo, do you have a religion? You know, a religion, like Jewish, or Christian, or Mathematics...?",
+            "author":"Alon Peres, 6-year old son of Yuval Peres"
+        },
+        {
+            "quote":"Computers are useless. They can only give you answers.",
+            "author":"Pablo Picasso"
+        },
+        {
+            "quote":"Let no-one ignorant of geometry enter.",
+            "author":"Inscription at the door of Plato's academy"
+        },
+        {
+            "quote":"Mathematics is the art of giving the same name to different things.",
+            "author":"Jules Henri Poincare"
+        },
+        {
+            "quote":"One geometry cannot be more true than another; it can only be more convenient.",
+            "author":"Jules Henri Poincare"
+        },
+        {
+            "quote":"Thought is only a flash between two long nights, but this flash is everything.",
+            "author":"Jules Henri Poincare"
+        },
+        {
+            "quote":"Science is facts; just as houses are made of stones, so is science made of facts; but a pile of stones is not a house and a collection of facts is not necessarily science.",
+            "author":"Jules Henri Poincare"
+        },
+        {
+            "quote":"Geometry is the science of correct reasoning on incorrect figures.",
+            "author":"George Polya"
+        },
+        {
+            "quote":"Hilbert once had a student in mathematics who stopped coming to his lectures, and he was finally told that the young man had gone off to become a poet. Hilbert is reported to have remarked, 'I never thought he had enough imagination to be a mathematician'.",
+            "author":"George Polya"
+        },
+        {
+            "quote":"Theorems are fun especially when you are the prover, but then the pleasure fades. What keeps us going are the unsolved problems.",
+            "author":"Carl Pomerance"
+        },
+        {
+            "quote":"Where a calculator like the ENIAC today is equipped with 18,000 vacuum tubes and weighs 30 tons, computers in the future may have only 1,000 vacuum tubes and perhaps weigh only 1 1/2 tons.",
+            "author":"Popular Mechanics, March 1949, p. 258"
+        },
+        {
+            "quote":"MacPherson told me that my theorem can be viewed as blah blah blah Grothendick blah blah blah, which makes it much more respectable.",
+            "author":"Jim Propp"
+        },
+        {
+            "quote":"I think some intuition leaks out in every step of an induction proof.",
+            "author":"Jim Propp"
+        },
+        {
+            "quote":"Quite frankly, teachers are the only profession that teach our children.",
+            "author":"Dan Quayle"
+        },
+        {
+            "quote":"Cambridge gave me various kinds of teaching and supervision, but possibly the most important influences were Jeffrey Goldstone and Peter Swinnerton-Dyer, who encouraged me to continue to think for myself and not to take the technical details too seriously.",
+            "author":"Miles Reid"
+        },
+        {
+            "quote":"Mathematics is persistent intellectual honesty.",
+            "author":"Moses Richardson"
+        },
+        {
+            "quote":"It is a pain to think about convergence but sometimes you really have to.",
+            "author":"Sinai Robins"
+        },
+        {
+            "quote":"I like to think of mathematicians as forming a nation of our own without distinctions of geographical origin, race, creed, sex, age or even time... all dedicated to the most beautiful of the arts and sciences.",
+            "author":"Julia Robinson"
+        },
+        {
+            "quote":"God created infinity, and man, unable to understand infinity, created finite sets.",
+            "author":"Gian-Carlo Rota"
+        },
+        {
+            "quote":"If we have no idea why a statement is true, we can still prove it by induction.",
+            "author":"Gian-Carlo Rota"
+        },
+        {
+            "quote":"Nature imitates mathematics.",
+            "author":"Gian-Carlo Rota"
+        },
+        {
+            "quote":"Every field has its taboos. In algebraic geometry the taboos are (1) writing a draft that can be followed by anyone but two or three of one's closest friends, (2) claiming that a result has applications, (3) mentioning the word 'combinatorial,' and (4) claiming that algebraic geometry existed before Grothendieck (only some handwaving references to 'the Italians' are allowed provided they are not supported by specific references).",
+            "author":"Gian-Carlo Rota"
+        },
+        {
+            "quote":"There is something in statistics that makes it very similar to astrology.",
+            "author":"Gian-Carlo Rota"
+        },
+        {
+            "quote":"Sometimes ideas just come to me. Other times I have to sweat and almost bleed to make ideas come. It's a mysterious process, but I hope I never find out exactly how it works.",
+            "author":"J. K. Rowling"
+        },
+        {
+            "quote":"It is because modern education is so seldom inspired by a great hope that it so seldom achieves a great result. The wish to preserve the past rather than the hope of creating the future dominates the minds of those who control the teaching of the youth.",
+            "author":"Bertrand Russell"
+        },
+        {
+            "quote":"In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted.",
+            "author":"Bertrand Russell"
+        },
+        {
+            "quote":"If you want to build a ship, don't drum up people to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.",
+            "author":"Antoine de Saint-Exupery"
+        },
+        {
+            "quote":"Grown-ups never understand anything for themselves, and it is tiresome for children to be always and forever explaining things to them.",
+            "author":"Antoine de Saint-Exupery"
+        },
+        {
+            "quote":"All truth passes through three stages. First, it is ridiculed. Second, it is violently opposed. Third, it is accepted as being self-evident.",
+            "author":"Arthur Schopenhauer"
+        },
+        {
+            "quote":"The problem is that we tend to live among the set of puny integers and generally ignore the vast infinitude of larger ones. How trite and limiting our view!",
+            "author":"P. D. Schumer"
+        },
+        {
+            "quote":"A felicitous but unproved conjecture may be of much more consequence for mathematics than the proof of many a respectable theorem.",
+            "author":"A. Selberg"
+        },
+        {
+            "quote":"It strikes me that mathematical writing is similar to using a language. To be understood you have to follow some grammatical rules. However, in our case, nobody has taken the trouble of writing down the grammar; we get it as a baby does from parents, by imitation of others. Some mathematicians have a good ear; some not (and some prefer the slangy expressions such as 'iff'). That's life.",
+            "author":"Jean-Pierre Serre"
+        },
+        {
+            "quote":"We learned to be happy. We danced 'round the hall. And learning to count was the key to it all.",
+            "author":"Sesamestreet"
+        },
+        {
+            "quote":"We've taught you that the earth is round, That red and white make pink, And something else that matters more -- We've taught you how to think.",
+            "author":"Dr. Seuss"
+        },
+        {
+            "quote":"Though this be madness, yet there is method in it.",
+            "author":"W. Shakespeare"
+        },
+        {
+            "quote":"Waste not thy time in windy argument but let the matter drop.",
+            "author":"W. Shakespeare"
+        },
+        {
+            "quote":"log log log x goes to infinity with great dignity.",
+            "author":"Dan Shanks"
+        },
+        {
+            "quote":"He [Taniyama] was gifted with the special capability of making many mistakes, mostly in the right direction. I envied him for this and tried to imitate him, but found it quite difficult to make good mistakes.",
+            "author":"Goro Shimura"
+        },
+        {
+            "quote":"Serious numbers will speak to us always.",
+            "author":"Paul Simon"
+        },
+        {
+            "quote":"In theory, there is no difference between theory and practice. But, in practice, there is.",
+            "author":"Jan L.A. van de Snepscheut"
+        },
+        {
+            "quote":"The very term 'combinatorial methods' has an oxymoronic character.",
+            "author":"Joel Spencer"
+        },
+        {
+            "quote":"Mathematics is the science of patterns, and nature exploits just about every pattern that there is.",
+            "author":"Ian Stewart"
+        },
+        {
+            "quote":"If you think it's simple, then you have misunderstood the problem.",
+            "author":"Bjarne Strustrup"
+        },
+        {
+            "quote":"The only reason that we like complex numbers is that we don't like real numbers.",
+            "author":"Bernd Sturmfels"
+        },
+        {
+            "quote":"The purely formal language of geometry describes adequately the reality of space. We might say, in this sense, that geometry is successful magic. I should like to state a converse: is not all magic, to the extent that it is successful, geometry?",
+            "author":"Rene Thom"
+        },
+        {
+            "quote":"Get your facts first, and then you can distort them as much as you please.",
+            "author":"Mark Twain"
+        },
+        {
+            "quote":"Few things are harder to put up with than a good example.",
+            "author":"Mark Twain"
+        },
+        {
+            "quote":"Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did do. So throw off the bowlines, sail away from the safe harbour, catch the trade winds in your sails. Explore. Dream. Discover.",
+            "author":"Mark Twain"
+        },
+        {
+            "quote":"A beautiful problem is like a funny joke.",
+            "author":"Daniel Ullman"
+        },
+        {
+            "quote":"A beautiful problem is no joke!",
+            "author":"Marvin Knopp"
+        },
+        {
+            "quote":"Mathematics is an escape from reality.",
+            "author":"Stanislaw Ulam"
+        },
+        {
+            "quote":"Phyllis explained to him, trying to give of her deeper self, 'Don't you find it so beautiful, math? Like an endless sheet of gold chains, each link locked into the one before it, the theorems and functions, one thing making the next inevitable. It's music, hanging there in the middle of space, meaning nothing but itself, and so moving...'",
+            "author":"John Updike"
+        },
+        {
+            "quote":"'What my brain doesn't quite get,' Owen persisted, elevating himself to Cantor's class of mental fragility, 'is why it was such a big deal when Russell and Gödel found these internal contradictions or paradoxes--as Klein points out, the confusion is basically semantic. I don't see what undecidability has to do with the history of the computer.' 'I mean,' he said, ' so what if there exists a set of sets that are not members of themselves, which makes it a set that both is and isn't a member of itself?' 'But Owen, dear,' Phyllis said, 'the antinomies--the paradoxes--undermine classical logic, but the way they have to be phrased brings us to symbolic logic, which brings in Boolean math and the Turing machine and algorithms. Undecidability is like knowing you have a swamp and having to invent methods to build on it anyway. It's like the Back Bay on all its pilings,' she said...",
+            "author":"John Updike"
+        },
+        {
+            "quote":"A lack of seriousness has led to all sorts of wonderful insights.",
+            "author":"Kurt Vonnegut"
+        },
+        {
+            "quote":"A mathematician who is not also something of a poet will never be a complete mathematician.",
+            "author":"Karl Weierstrass"
+        },
+        {
+            "quote":"Every mathematician worthy of the name has experienced, if only rarely, the state of lucid exaltation in which one thought succeeds another as if miraculously, and in which the unconscious (however one interprets that word) seems to play a role.",
+            "author":"Andre Weil"
+        },
+        {
+            "quote":"That's all well and good in practice, but how does it work in theory?",
+            "author":"Shmuel Weinberger"
+        },
+        {
+            "quote":"My work always tried to unite the true with the beautiful, but when I had to choose one or the other, I usually chose the beautiful.",
+            "author":"Hermann Weyl"
+        },
+        {
+            "quote":"We think in generalities, but we live in details.",
+            "author":"Alfred North Whitehead"
+        },
+        {
+            "quote":"The pursuit of mathematics is a divine madness of the human spirit.",
+            "author":"Alfred North Whitehead"
+        },
+        {
+            "quote":"Fundamental progress has to do with the reinterpretation of basic ideas.",
+            "author":"Alfred North Whitehead"
+        },
+        {
+            "quote":"Order is not sufficient. What is required, is something much more complex. It is order entering upon novelty; so that the massiveness of order does not degenerate into mere repetition; and so that the novelty is always reflected upon a background of system.",
+            "author":"Alfred North Whitehead"
+        },
+        {
+            "quote":"A generating function is a clothesline on which we hang up a sequence of numbers for display.",
+            "author":"Herbert Wilf"
+        },
+        {
+            "quote":"The full beauty of the subject of generating functions emerges only from tuning in on both channels: the discrete and the continuous.",
+            "author":"Herbert Wilf"
+        },
+        {
+            "quote":"Induction makes you feel guilty for getting something out of nothing, and it is artificial, but it is one of the greatest ideas of civilization.",
+            "author":"Herbert Wilf"
+        },
+        {
+            "quote":"1/r^2 has a nasty singularity at r=0, but it did not bother Newton--the Moon is far enough.",
+            "author":"Edward Witten"
+        },
+        {
+            "quote":"All means (even continuous) sanctify the discrete end.",
+            "author":"Doron Zeilberger"
+        },
+        {
+            "quote":"Many years ago, I once said, in a talk, 'a direct combinatorial proof is like sex. If it is good, then it is great. If it is bad, then it is still better than nothing'. I am no longer so sure. I still think that direct combinatorial proofs are like sex, except that both bad sex and bad combinatorial proofs are worse than nothing.",
+            "author":"Doron Zeilberger"
+        }
+    ]
+}

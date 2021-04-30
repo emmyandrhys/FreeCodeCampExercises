@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Random Quote Machine</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <div id='quote-box'> <!--horizontally centered-->
+            <h1 id="text"></h1>
+            <h2 id="author"></h2>
+            <button id="new-quote"></button>
+            <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank"></a>
+        </div>
+        </div>
+        <footer>
+            <p id="sources-intro">Many of this quotes have been gathered from the following sources:</p>
+            <ul>
+                <li>Matthias Beck's <a href="http://math.sfsu.edu/beck/quotes.html" target="_blank"></a>Math Quotes</li>
+                <li>Famous Math Quotes from <a href="https://www.kidsmathgamesonline.com/facts/famousmathquotes.html" target="_blank">Kids Math Games</a></li>
+            </ul>
+        </footer>
+    </body>
+    <script>
+        //when #new-quote button clicked, fetch and display a new quote in #text and #author
+        // set up variables
+        const endpoint ='/quotes.json';
+        const quotes= []
+        fetch(endpoint)
+            .then(blob=>blob.json())
+            .then(data=>quotes.push(...data));
+
+        const quoteText= document.querySelector('.text');
+        const quoteAuthor=document.querySelector('.author');
+        const newQuote=document.querySelector('.new-quote');
+
+        // function to display a random quote and author
+        function randomQuote() {
+            var index=parseInt(Math.random() * quotes.length) - 1;
+            const quote=quotes[index]['quote'];
+            const author=quotes[index]['author'];
+            quoteText.innerHTML = quote;
+            quoteAuthor.innerHTML = author;
+        }
+
+        //first load displays random quote in #text and author in #author
+        window.onload = randomQuote();
+        // listener for need to display a new quote
+        newQuote.addEventListener('click', randomQuote);
+
+
+    </script>
+</html>
