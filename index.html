@@ -4,22 +4,26 @@
         <title>Random Quote Machine</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="wrapper">
         <div id='quote-box'> <!--horizontally centered-->
             <h1 id="text"></h1>
             <h2 id="author"></h2>
-            <button id="new-quote"></button>
+            <button id="new-quote">Quote Permutation?</button>
             <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank"></a>
         </div>
         </div>
         <footer>
             <p id="sources-intro">Many of this quotes have been gathered from the following sources:</p>
             <ul>
-                <li>Matthias Beck's <a href="http://math.sfsu.edu/beck/quotes.html" target="_blank"></a>Math Quotes</li>
+                <li>Matthias Beck's <a href="http://math.sfsu.edu/beck/quotes.html" target="_blank">Math Quotes</a></li>
                 <li>Famous Math Quotes from <a href="https://www.kidsmathgamesonline.com/facts/famousmathquotes.html" target="_blank">Kids Math Games</a></li>
             </ul>
+            <p id="background-credit">Image by <a href="https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5851871">chenspec</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5851871">Pixabay</a></p>
         </footer>
     </body>
     <script type="text/javascript" source="https://raw.githubusercontent.com/emmyandrhys/FreeCodeCampExercises/master/quotes.json"></script>
@@ -32,24 +36,74 @@ const quotes= []
 fetch(endpoint)
     .then(blob=>blob.json())
     .then(data=>quotes.push(...data));
-    console.log(endpoint)
 
-const quoteText= document.querySelector('.text');
-const quoteAuthor=document.querySelector('.author');
-const newQuote=document.querySelector('.new-quote');
+const quoteText= document.getElementById('text');
+const quoteAuthor=document.getElementById('author');
+const newQuote=document.getElementById('new-quote');
 
 // function to display a random quote and author
 function randomQuote() {
     var index=parseInt(Math.random() * quotes.length) - 1;
-    const quote=quotes[index]['quote'];
-    const author=quotes[index]['author'];
-    quoteText.innerHTML = quote;
+    const quote=quotes[index].quote;
+    const author=quotes[index].author;
+    quoteText.innerHTML = `"${quote}"`;
     quoteAuthor.innerHTML = author;
 }
 
 //first load displays random quote in #text and author in #author
-window.onload = randomQuote();
+//window.onload = randomQuote;
+window.addEventListener("load", function() {
+    const starterQuotes = [{
+        "quote": "Some mathematician, I believe, has said that true pleasure lies not in the discovery of truth, but in the search for it.",
+        "author": "Leo Tolstoy"
+    },
+    {
+        "quote": "Mathematics expresses values that reflect the cosmos, including orderliness, balance, harmony, logic, and abstract beauty.",
+        "author": "Deepak Chopra"
+    },
+    {
+        "quote": "I had a polynomial once. My doctor removed it.",
+        "author": "Michael Grant"
+    },
+    {
+        "quote": "The difference between the poet and the mathematician is that the poet tries to get his head into the heavens while the mathematician tries to get the heavens into his head.",
+        "author": "G.K. Chesterton"
+    },
+    {
+        "quote": "My first feeling was that there was no way to continue. Writing isn't like math;in math, two plus two always equals four no matter what your mood is like. With writing, the way you feel changes everything.",
+        "author": "Stephanie Meyer"
+    },
+    {
+        "quote": "I'm sorry to say that the subject I most disliked was mathematics. I have thought about it. I think the reason was that mathematics leaves no room for argument. If you made a mistake, that was all there was to it.",
+        "author": "Malcolm X"
+    },
+    {
+        "quote": "I know that two and two make four - and should be glad to prove it too if I could - though I must say if by any sort of process I could convert 2 and 2 into five it would give me much greater pleasure.",
+        "author": "Lord George Gordon Byron"
+    },
+    {
+        "quote": "I couldn't claim that I was smarter than sixty-five other guys--but the average of sixty-five other guys, certainly!",
+        "author": "Richard P. Feynman"
+    },
+    {
+        "quote": "Solving a problem for which you know there’s an answer is like climbing a mountain with a guide, along a trail someone else has laid. In mathematics, the truth is somewhere out there in a place no one knows, beyond all the beaten paths. And it’s not always at the top of the mountain. It might be in a crack on the smoothest cliff or somewhere deep in the valley.",
+        "author": "Yoko Ogawa"
+    },
+    {
+        "quote": "But in my opinion, all things in nature occur mathematically.",
+        "author": "Rene Decartes"
+    },
+    {
+        "quote": "Since the mathematicians have invaded the theory of relativity I do not understand it myself any more.",
+        "author": "Albert Einstein"
+    }];
+    var index=parseInt(Math.random() * 11);
+    const quote=starterQuotes[index]["quote"];
+    const author=starterQuotes[index].author;
+    quoteText.innerHTML = `"${quote}"`;
+    quoteAuthor.innerHTML = author;
+});
 // listener for need to display a new quote
-newQuote.addEventListener('click', randomQuote);
+newQuote.addEventListener('click', randomQuote)
   </script>
 </html>

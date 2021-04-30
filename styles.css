@@ -56,6 +56,10 @@ table {
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color: #e6e600;
+    background-image: url("pencil-5851871_1920.jpg");
+    background-position: center;
+
 }
 #quote-box {
     display: flex;
@@ -63,5 +67,49 @@ table {
     justify-content: center;
     align-content: center;
     align-items: center;
+    text-align: center;
+    background-color: #D656C1;
+    border: 1vh solid #D656C1;
+    border-radius: 2vh;
+    max-width: 80vw;
+    width: fit-content;
+    margin: 5vh;
+    font-family: 'Kalam', cursive;
+}
+#text {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+#author {
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+button {
+    color: rgb(255, 255, 230); 
+    font-size: 18px; 
+    padding: 12px; 
+    border-radius: 3vh;
+    border-color: #ffb319; 
+    border-width: 0;
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold; 
+    text-decoration: none; 
+    background-color: #ffb319;    
+    display: inline-block;
+    box-shadow: none;
+}
+    
+button:hover {
+    background: rgb(28,110,164);
+    border:none 
+}
+button:active {
+    background: rgb(20,78,117);
+    border: none }
+footer {
+    font-family: 'Lato', sans-serif;
 }
 
