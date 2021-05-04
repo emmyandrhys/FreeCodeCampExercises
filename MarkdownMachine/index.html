@@ -1,76 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Markdown Preview Machine</title>
-        <meta charset="utf-8">
-
+      <title>Markdown Preview Machine</title>
+      <meta charset="utf-8">
+      <script src="MarkdownMachine\MarkdownParser.js"></script>
+      
     </head>
     <body>
         <h1 id="pageTitle">Markdown Text Editor</h1>
-        <div id="instructions">
-            <h2>Instructions:</h2>
-            <ul>
-                <li>Enter your Markdown text on the editor box.</li>
-                <li>Your text will appear in formatted in the Preview class.</li>
-            </ul>
-        </div>
-        <div id="tips">
-            <h2>Formatting Tips:</h2>
-            <h3>Headings</h3>
-            <p>Add 1-6 # symbols before your heading text.  The more hash symbols the smaller the heading to be</p>
-            <h3>Bold Text</h3>
-            <p>**before and after** or __before and after__ make the text bold.</p>
-            <h3>Italics</h3>
-            <p>*before and after* or _before and after_ italicize the text.</p>
-            <h3>Strikethough</h3>
-            <p>~~before and after~~ strikeout the text.</p>
-            <h3>Bold & Italics</h3>
-            <p>***before and after*** make the text and bolded and italicized.</p>
-            <h3>Nesting Bold and Italics</h3>
-            <p>Bold and italics **can be _nested_ by nesting the symbols.**</p>
-            <h3>Quoting</h3>
-            <p>An > before text will set it off from the rest.</p>
-            <h3>Code</h3>
-            <p>`Single backticks` will leave that text unformatted.  ```Triple backticks``` form a code block.</p>
-            <h3>Links</h3>
-            <p>Wrap the link text in [brackets](followed by the url in parenthesis).</p>
-            <h3>Unordered List</h3>
-            <p>Place a - or a * in front of each item/line.</p>
-            <h3>Ordered List</h3>
-            <p>Precede each line with a number and period (1.).</p>
-            <h3>Nested Lists</h3>
-            <p>Count the number of spaces in the line above to determine the number of spaces you want to indent.  Enter that many spaces before marking the list item (* or - or 1.).</p>
-            <h3>Task Lists</h3>
-            <p>Line starts with a space, then [].  To mark task complete, use [x].</p>
-            <h3>Emoji</h3>
-            <p>Type :emojicode: with a colon in front of and behind the emoji code.</p>
-            <h3>Paragraphs</h3>
-            <p>Leave a blank line between lines of text to mark paragraphs.</p>
-        </div>
-        <textarea id="editor"></textarea>
-        <div id='previewPane'><div id="preview"></div></div>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script>
-            const editor=document.getElementById('editor');
-            const preview=document.getElementById('preview');
-            function markup() {
-                var unmarked=document.getElementById('editor').value;
-                preview.innerHTML=marked(unmarked);
-            }
-            editor.addEventListener('change', markup)
-  </script>
+<div id="markup">
+  <div id="markdown"></div>
+<!--        <textarea id="editor"></textarea>
+  <div id='previewPane'><div id="preview"></div></div></div>
+      <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script scr="MarkdownMachine\script.js"></script>
+
+      
+
+
     </body>
 </html>
-
-<!--
-User Story #3: When I enter text into the #editor element, the #preview element 
-is updated as I type to display the content of the textarea.
-User Story #4: When I enter GitHub flavored markdown into the #editor element, 
-the text is rendered as HTML in the #preview element as I type
-User Story #5: When my markdown previewer first loads, the default text in the 
-#editor field should contain valid markdown that represents at least one of each 
-of the following elements: a header (H1 size), a sub header (H2 size), a link, 
-inline code, a code block, a list item, a blockquote, an image, and bolded text.
-Optional Bonus (you do not need to make this test pass): My markdown previewer 
-interprets carriage returns and renders them as br (line break) elements.
--->
