@@ -4,7 +4,6 @@ body { line-height: 1;}
 ol,ul { list-style: none;}
 
 body {
-display:block;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   background: coral;
   color: teal;
@@ -13,48 +12,49 @@ display:block;
 header {
   background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1280px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg") no-repeat fixed;
   background-position: top;
-  background-size:100%;
-  display: block;
+  background-size:cover;
   color: darkcyan;
-  padding-top:75px;
   line-height: 1;
   font-family: 'Emilys Candy', cursive;
   letter-spacing: 1px;
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
 #gist {
-  display: block;
   width: 70%;
   margin-left:auto;
   margin-right:auto;
   font-size: x-large;
   padding-bottom: 30px;
   font-family: 'Kiwi Maru', serif;
-  color: deepjunglegreen;
+  color: rgb(13, 121, 121);
   font-weight: bold;
-  text-shadow: 3px 3px beige, -3px -3px beige;
+  text-shadow: 0.1rem 0.1rem rgba(119, 114, 77, 0.637);
+  background-color: rgba(233, 231, 218, 0.637);
+  border: 5px solid rgba(233, 231, 218, 0.637);
+  border-radius: 25%;
 }
 h1 {
-  font-size: xx-large;
+  font-size: 6rem;
   color: darkcyan;
   letter-spacing: 4px;
+  text-shadow: 0.2rem 0.2rem rgba(119, 114, 77, 0.637);
+  padding-bottom: 10vh;
+  width: 100%;
 }
 h2 {
   font-variant: small-caps;
   font-size: xx-large;
-  text-decoration: underline solid;
-  text-decoration-thickness: thick;
-  
+  text-decoration: underline solid;  
 }
-main{
-  display: grid;
-  grid-template-columns: 3fr 4fr 1fr;
-  height: auto;
-}
+
 #timelinehead {
-  padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  column-start: 2/span 2;
 }
 h3 {
   font-weight: bold;
@@ -66,7 +66,6 @@ p {
   padding-bottom:10px;
 }
 section {
-  display: block;
   width: 25vw;
   color: seagreen;
   background: khaki;
@@ -75,21 +74,23 @@ section {
   padding-left: 10px;
   padding-right: 10px;
   height: fit-content;
-  
 }
-@media (max-width: 460px) {
-  #img-div {
-    display:block;
-    max-width:none;
-    grid-column:0;
-    position: -webkit-sticky;
-    position: sticky; 
-    top: -10px;
-  }}
+
+figure {
+    height: 100vh;
+    
+  }
+img {
+  height: 80vh;
+  width: auto;
+  padding-top:10vh;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
+/*
 #timeline {
-  grid-column:2;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 4fr 5fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 3fr 9fr 1fr 1fr 1fr;
 }
 .right {
@@ -97,14 +98,28 @@ section {
 }
 .left {
   text-align: left;
-}
+}*/
 .blank {
-  border: none;
+  border:none;
+  border-radius: 0;
   background: none;
+  height:8vh;
 }
-@media (max-width: 460px) {
-  img {
-    display:block;
-    max-width:100%;
-    margin:auto;
-  }}
+.offset-1 {
+  border-right: 12px solid sienna;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.offset-6 {
+  border-left: 12px solid sienna;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#spacer {
+  height: 10vh;
+  background: none;
+  border: none;
+}
+footer {
+  background: rgb(255, 144, 100);
+}

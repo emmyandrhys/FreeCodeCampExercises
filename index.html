@@ -15,22 +15,31 @@
 
 <body>
   <div class="container-fluid !direction !spacing">
+    <!--Jumbotron Style Title-->
     <picture class="img-fluid" id="welcome-section">
       <source media="(min-width: 1200px)" srcset="Artboard1xxxhdpi.png" class="img-responsive">
       <source media="(max-width: 450 px)" srcset="Artboard1ldpi.png" class="img-responsive">
       <img src="Artboard1mdpi.png" alt="Nicolette T. Staley's Portfolio" class="img-responsive">
     </picture>
+    <!--Nav Bar below Title but sticky to top once reaching it-->
     <nav id="navbar">
       <a href="#about_me" class="nav-list">About me.</a>
       <a href="#projects" class="nav-list">Projects.</a>
     </nav>
-    <section>
-      <img src="Text_divider_long_01.png" class="img-responsive"/>
-      <p id="blurb" class="lead text-center">A developing developer with 12+ years of classroom teaching experience. Proficient in Python, HTML, CSS, and JavaScript.</p>
-      <br>
+    <!--Blurb-->
+    <section id="blurbox" class="justify-content-center row">
+      <img src="Text_divider_long_01.png" class="img-responsive col-12 divider"/>
+      <div id="blurb">
+      <p class="lead text-center">A developing developer with 12+ years of classroom teaching experience.</p>
+      <p class="lead text-center">Proficient in Python, HTML, CSS, and JavaScript.</p>
+      <p class="lead text-center">Well-versed in creative problem solving, responding with grace and flexibility, analyzing and deconstructing problems, and listening and critiquing without judgment.</p>
+</div>
+      <img src="Text_divider_long_01.png" class="img-responsive col-12 divider"/>
     </section>
+    <!--Project Cards-->
     <h2 class="text-center">Projects</h2>
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <!--Card: Exercism Portfolio-->
       <div class="col">
           <div class="card h-100">
               <img class="bd-placeholder-img img-responsive" src="64916479.png" width="100%" height="auto"
@@ -43,6 +52,7 @@
               </div>
             </div>
           </div>
+         <!--Card: Free Code Camp Portfolio--> 
         <div class="col">
           <div class="card h-100">
             <div class="row g-0">
@@ -57,6 +67,7 @@
             </div>
           </div>
         </div>
+        <!--Card: Drum Machine-->
         <div class="col">
           <div class="card h-100">
             <div class="row g-0">
@@ -71,6 +82,7 @@
             </div>
           </div>
         </div>
+        <!--Card: Christmas Countdown-->
         <div class="col">
           <div class="card h-100">
             <div class="row g-0">
@@ -85,6 +97,7 @@
             </div>
           </div>
         </div>
+        <!--Card: Ada Tribute-->
         <div class="col">
           <div class="card h-100">
             <div class="row g-0">
@@ -99,6 +112,7 @@
             </div>
           </div>
         </div>
+        <!--Card: Placeholder-->
         <div class="col">
           <div class="card h-100">
             <div class="row g-0">
@@ -113,6 +127,8 @@
             </div>
           </div>
         </div>
+                <!--Card: Placeholder-->
+
         <div class="col">
           <div class="card h-100">
             <div class="row g-0">
@@ -127,6 +143,8 @@
             </div>
           </div>
         </div>
+                <!--Card: Placeholder-->
+
         <div class="col">
           <div class="card h-100">
             <img class="bd-placeholder-img" src="64916479.png" width="100%" height="auto" alt="placeholder baby robins">

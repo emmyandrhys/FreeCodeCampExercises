@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buttons {
+  width:240px;
+  height: 480px;
+  background-color: pink;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numberButtons {
+  width:180px;
+  height: 240px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.numberKey {
+  width:58px;
+  height:58px;
+  border: 1px solid black;
+}
+.opButtons {
+  width:60px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.opKey {
+  width: 58px;
+  height: 58px;
+  border: 1px solid black;
+}
+.blankdigit {
+  width: 26px;
+  height: 50px;
+}
+.digit {
+  height: 50px;
+  width: 26px;
+}
+.topdigit .bottomdigit {
+  width: 24px;
+  height: 24px;
+}

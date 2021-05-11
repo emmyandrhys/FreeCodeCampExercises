@@ -47,24 +47,36 @@ nav {
   margin-right: 1rem;
   margin-left: 0.5rem;
   text-align: right;
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  padding-bottom: 0.2rem;
   color: #00cccc;
 }
 
 .nav-list:hover {
-  background-color: #7300e6;
+  text-color: #7300e6;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
+#blurbox {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
 #blurb {
   text-align: center;
   margin-left: 5rem;
   margin-right: 5rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  width: 75%;
+}
+.divider {
+  height: 2vh;
+  width: auto;
+  opacity: 50%;
 }
 #profile-links {
   text-align: center;
@@ -73,7 +85,15 @@ nav {
 #profile-links > a:hover {
   background-color: #7300e6;
 }
-
+.lead {
+  font-size: 2rem;;
+}
+h2 {
+  font-size: 4rem;
+  text-decoration: underline #7300e6;
+  margin-bottom: 2rem;
+  background: none;
+}
 
 
 /* Projects section 
