@@ -1,0 +1,66 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body class="text-center" id="drum-machine">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="../Portfolio/index.html">Portfolio</a>
+            <a class="nav-link" href="https://github.com/emmyandrhys">Github</a>
+            <a class="nav-link" href="mailto:emmyandrhys@gmail.com">Email</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Staley Drum Machine</h1>
+        <div id="display" class="displayname"><h3>Now Playing:</h3></div>
+    <div class="row">
+        <p class="lead">Type what you want to play. Cymbals are Q, W, E. Snare is A and S, Small Tom is D. Hi-Hat is Z.  Bass is X. C is Floor Tom.</p></div>
+        <div class="row">
+      <button class="drum-pad" id="closedhat" datakey="81">Q
+      <audio class="clip"data-key="81" id="Q" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Hi_hat_closed.ogg"></audio>
+      </button>
+          <button class="drum-pad" id="ride" datakey="87">W
+      <audio class="clip"data-key="87" id="W" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ride.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="crash" datakey="69">E
+      <audio class="clip"data-key="69" id="E" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Crash_cymbal.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="snare" datakey="65">A
+      <audio class="clip"data-key="65" id="A" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Snare_drum_muffled.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="snare2" datakey="83">S
+      <audio class="clip"data-key="83" id="S" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Snare_drum_unmuffled.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="tom"datakey="68">D
+      <audio class="clip" data-key="68" id="D" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Tom_12_inch.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="hihat" datakey="90">Z
+      <audio class="clip"data-key="90" id="Z" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Hi_hat_foot_pedal.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="bass" datakey="88">X
+      <audio class="clip" data-key="88" id="X" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Bass_drum.ogg"></audio>
+      </button>
+      <button class="drum-pad" id="floortom" datakey="67">C
+          <audio class="clip" data-key="67" id="C" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Floor_tom.ogg"></audio>
+      </button>
+      </div>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
+</body>

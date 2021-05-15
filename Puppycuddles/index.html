@@ -1,0 +1,51 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  <header id="header">
+    <h1 class="heading">Puppy Cuddles</h1>
+  <img id="header-img" class="heading" src="https://cdn.pixabay.com/photo/2016/03/31/20/41/friends-1295970__340.png">
+  <nav id="nav-bar">
+    <ul>
+      <li class="nav-link" href="#benefits">Benefits</li>
+      <li class="nav-link" href="#basiccuddle">Basic Cuddle</li>
+      <li class="nav-link" href="#options">Options</li>
+    <li class="nav-link" href="#packages">Packages</li>
+    <li class="nav-link" href="#booking">Booking Form</li>
+  </ul></nav>
+  </header>
+  <main>
+    <br>
+    <section><h2 id="benefits">Benefits</h2>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/vnCTE-HcUxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section><h2 id="basiccuddle">Basic Cuddle</h2>
+    </section>
+    <section><h2 id="options">Options</h2>
+    </section>
+    <section><h2 id="packages">Packages</h2>
+    </section>
+    <section><h2 id="booking">Booking Form</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit"><div></div>
+      <fieldset id="contact"> <div> <label>Name: </label>
+        <input type="text" placeholder="Your name" name="name" required>
+        </div><div>  <label>Email:</label>
+        <input type="email" id="email" placeholder="youremail@email.com" name="email" required></div></fieldset><br>
+        <fieldset><label>What type of Puppy Cuddle do you want to schedule? </label><br>
+      
+          <div><input type="radio" name="type" value="basic"><label>Basic</label></div><div>
+          <input type="radio" name="type" value="deluxe"><label>Deluxe</label></div><div>
+         <input type="radio" name="type" value="premium"><label>Premium</label>
+         </div><div> <input type="radio" name="type" value="Extended"><label>Extended</label></div>
+        </fieldset><br> <fieldset>
+        <label>What options are you interested in adding on?</label>
+        <div><input type="checkbox" name="options" value="brushing"><label>Brushing</label>
+        </div><div><input type="checkbox" name="options" value="treats"><label>Treats</label></div><div>
+        </div><div>   <input type="checkbox" name="options" value="dog park"><label>Dog Park</label></div><div>
+        <input type="checkbox" name="options" value="blanket"><label>Blanket</label></div>
+        </fieldset><br>
+      <fieldset><label>What is your preferred date to schedule the Puppy Cuddle? (Subject to availability.)</label>
+          <input type="date" name="date"></fieldset>
+      <input type="submit" id="submit"formaction="https://www.freecodecamp.com/email-submit">
+    </form>
+    </section>
+  </main>
+</body>
