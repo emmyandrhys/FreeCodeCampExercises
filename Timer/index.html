@@ -1,74 +1,324 @@
-<!--<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-        <script src="newTimer.js"></script>
-    </head>
-    <body>
-        <div id="timer-app">
-            <div id="break">
-                <h3 id="break-label">Break Length</h3>
-                <button id="break-decrement" onclick="breakAdjust(-1)">-1</button>
-                <h2 id="break-length">5</h2>
-                <p>minutes</p>
-                <button id="break-increment" onclick="breakAdjust(1)">+1</button>
-            </div>
-            <div id="session">
-                <h3 id="session-label">Session Length</h3>
-                <button id="session-decrement" onclick="sessionAdjust(-1)">-1</button>
-                <h2 id="session-length">25</h2>
-                <button id="session-increment" onclick="sessionAdjust(1)">+1</button>
-            </div> 
-            <div id="timerBox">
-                <h3 id="timer-label">Session</h3>
-                <h1 id="time-left">25:00</h1>      
-                <div id="controls">
-                    <button id="start_stop" onclick="startStopTimer">Start</button>
-                    <button id="reset" onclick="resetCountdown">Reset</button>
-                </div>
-        </div>
-        <script src="newTimer.js"></script>
-    </body>
-</html>-->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Staley PomPomHero Timer</title>
+    <title>Timer</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    <meta name="author" content="Nicolette T. Staley">
+    <meta name="description" content="Pomodoro style timer with Vanilla JS"
+</head>
+
+<body>
     <main class="app">
-      <progress id="js-progress" value="0"></progress>
-      <div class="progress-bar"></div>
-      <div class="timer">
-        <div class="button-group mode-buttons" id="mode-buttons">
-          <div id="session-buttons">
-            <button data-mode="session" class="button active mode-button" id="session">Session</button>
-          </div>
-          <div id="break-buttons">
-            <button data-mode="shortBreak" class="button mode-button" id="short-break">Short break</button>
-          </div>
-          <button data-mode="longBreak" class="button mode-button" id="long-break">Long break</button>
+        <progress id="js-progress" value="0" max="1500"></progress>
+        <div class="progress-bar"></div>
+        <div class="timer">
+            <div class="button-group mode-buttons" id="mode-buttons">
+                <div id="session-controls">
+                    <h3 data-mode="session" class="button modebutton active" id="session-label">
+                        Session
+                    </h3>
+                <button id="session-decrement" value="-1">-1</button>
+                <span id="session-length">25</span>
+                <button id="session-increment" value="1">+1</button>
+                </div>
+                <div id="break-controls">
+                    <h3 data-mode="shortBreak" class="button modebutton" id="break-label">
+                        Short break
+                    </h3>
+                    <button id="break-decrement" value="-1">-1</button>
+                    <span id="break-length">5</span>
+                    <button id="break-increment" value="1">+1</button>
+                </div>
+                <button data-mode="longBreak" class="button modebutton" id="long-break-label">
+                    Long break
+                </button>
+            </div>
+            <div class="clock">
+                <h3 id="timer-label">session</h3>
+                <h1 id="time-left">25:00</h1>
+
+            </div>
+            <button class="main-button" data-action="start" id="start_stop">
+                Start
+            </button>
+            <button data-action="reset" id="reset">Reset</button>
         </div>
-        <div class="clock" id="time-left">
-          <span id="time-minutes">25</span>
-          <span class="separator">:</span>
-          <span id="time-seconds">00</span>
-        </div>
-        <button class="main-button" data-action="start" id="start_stop">Start</button>
-        <button class="main-button" data-action="restart" id="reset">Reset</button>
-      </div>
     </main>
     <div class="hidden">
-      <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
-      <audio src="break.mp3" data-sound="shortBreak"></audio>
-      <audio src="break.mp3" data-sound="longBreak"></audio>
+        <audio src="backtowork.mp3" data-sound="session"></audio>
+        <audio src="break.mp3" data-sound="shortBreak"></audio>
+        <audio src="break.mp3" data-sound="longBreak"></audio>
     </div>
-    <script src="timer.js"></script>
-  </body>
+    <!--<script src="timer.js"></script>-->
+    <script>
+const timer = {
+            session: 25,
+            shortBreak: 5,
+            longBreak: 15,
+            longBreakInterval: 4,
+            sessions: 0,
+            running: false,
+            remainingTime : { total: 1500, minutes: 25, seconds: 0 },
+            mode: 'session'
+        };
+
+/* Break Length Adjustment Listeners and Functions */
+const bDec = document.getElementById('break-decrement');
+const bInc = document.getElementById('break-increment');
+const breakLabel = document.getElementById('break-length')
+bDec.addEventListener('click', () => { 
+    if (timer.shortBreak > 1 && timer.shortBreak < 60) {
+        timer.shortBreak = timer.shortBreak - 1;
+        bDec.disabled = false;
+        bInc.disabled = false;
+    }
+    if (timer.shortBreak <= 1) {
+        bDec.disabled = true;
+    }
+    if (timer.shortBreak >= 60) {
+        bInc.disabled = true;
+    }
+    const time = `${timer.shortBreak}`;
+    breakLabel.textContent = `${time}`
+ }); 
+bInc.addEventListener('click', () => { 
+    if (timer.shortBreak > 1 && timer.shortBreak < 60) {
+        timer.shortBreak = timer.shortBreak + 1;
+        bDec.disabled = false;
+        bInc.disabled = false;
+    }
+    if (timer.shortBreak <= 1) {
+        bDec.disabled = true;
+    }
+    if (timer.shortBreak >= 60) {
+        bInc.disabled = true;
+    }
+    const time = `${timer.shortBreak}`;
+    breakLabel.textContent = `${time}`
+});
+
+const breakAdjust = (value) => {
+    if (60 > timer.shortBreak && timer.shortBreak> 1) {
+        timer.shortBreak = timer.shortBreak + value;
+        bDec.disabled = false;
+        bInc.disabled = false;
+    }
+    if (timer.shortBreak <= 1) {
+        bDec.disabled = true;
+    }
+    if (timer.shortBreak >= 60) {
+        bInc.disabled = true;
+    }
+    const time = `${timer.shortBreak}`;
+    breakLabel.textContent = `${time}`
+};
+    
+/* Session Length Adjustment Listeners and Functions */
+const sDec = document.getElementById('session-decrement');
+const sInc = document.getElementById('session-increment');
+const sessionLabel = document.getElementById('session-length')
+sDec.addEventListener('click', () => { 
+    if (timer.shortBreak > 1 && timer.shortBreak < 60) {
+        timer.session --;
+        sDec.disabled = false;
+        sInc.disabled = false;
+    }
+    if (timer.session <= 1) {
+        sDec.disabled = true;
+    }
+    if (timer.session >=60) {
+        sInc.disabled = true;
+    }
+    const time = `${timer.session}`;
+    sessionLabel.textContent = `${time}`
+});
+sInc.addEventListener('click', () => { 
+    if (timer.shortBreak > 1 && timer.shortBreak < 60) {
+        timer.session ++;
+        sDec.disabled = false;
+        sInc.disabled = false;
+    }
+    if (timer.session <= 1) {
+        sDec.disabled = true;
+    }
+    if (timer.session >=60) {
+        sInc.disabled = true;
+    }
+    const time = `${timer.session}`;
+    sessionLabel.textContent = `${time}`;
+ });
+
+//const sessionAdjust = (value) => {
+function sessionAdjust(value) {
+    if (timer.shortBreak > 1 && timer.shortBreak < 60) {
+        timer.session += value;
+        sDec.disabled = false;
+        sInc.disabled = false;
+    }
+    if (timer.session <= 1) {
+        sDec.disabled = true;
+    }
+    if (timer.session >=60) {
+        sInc.disabled = true;
+    }
+    const time = `${timer.session}`;
+    sessionLabel.textContent = `${time}`};
+
+let interval;
+
+function getRemainingTime(endTime) {
+            const currentTime = Date.parse(new Date());
+            const difference = endTime - currentTime;
+
+            const total = parseInt(difference / 1000);
+            const minutes = parseInt((total / 60) % 60);
+            const seconds = parseInt(total % 60);
+
+            return {
+                total,
+                minutes,
+                seconds,
+            };
+        }
+const timeLeft = document.getElementById('time-left');
+function updateClock() {
+            const { remainingTime } = timer;
+            const minutes = `${remainingTime.minutes}`.padStart(2, '0');
+            const seconds = `${remainingTime.seconds}`.padStart(2, '0');
+
+            const time = `${minutes}:${seconds}`;
+            timeLeft.textContent = time
+
+            document.title = `${time} - ${timer.mode}`;
+            const progress = document.getElementById('js-progress');
+            progress.value = timer[timer.mode] * 60 - timer.remainingTime.total;
+        }
+
+function startTimer() {
+            let total = timer.remainingTime.total
+            const endTime = Date.parse(new Date()) + total * 1000;
+
+            if (timer.mode === 'session') timer.sessions++;
+            mainButton.textContent = 'Pause';
+            timer.running = true;
+
+            interval = setInterval(function () {
+                timer.remainingTime = getRemainingTime(endTime);
+                total = timer.remainingTime.total;
+                updateClock();
+                if (total <= 0) {
+                    clearInterval(interval);
+
+                    switch (timer.mode) {
+                        case 'session':
+                            if (timer.sessions % timer.longBreakInterval === 0) {
+                                switchMode('longBreak');
+                            } else {
+                                switchMode('shortBreak');
+                            }
+                            break;
+                        default:
+                            switchMode('session');
+                    }
+
+                    if (Notification.permission === 'granted') {
+                        const text =
+                            timer.mode === 'session' ? 'Get back to work!' : 'Take a break!';
+                        new Notification(text);
+                    }
+
+                    document.querySelector(`[data-sound="${timer.mode}"]`).play();
+                    startTimer();
+                }
+            }, 1000);
+        }
+
+function stopTimer() {
+            clearInterval(interval);
+            mainButton.textContent = 'Start';
+            timer.running = false;
+        }
+
+function switchMode(mode) {
+            timer.mode = mode;
+            timer.remainingTime = {
+                total: timer[mode] * 60,
+                minutes: timer[mode],
+                seconds: 0
+            };
+
+            document
+                .querySelectorAll('.modebutton[data-mode]')
+                .forEach(e => e.classList.remove('active'));
+            document
+                .querySelector(`[data-mode="${mode}"]`)
+                .classList.add('active');
+            document
+                .getElementById('js-progress')
+                .setAttribute('max', timer.remainingTime.total);
+            document.body.style.backgroundColor = `var(--${mode})`;
+            document.getElementById('timer-label').textContent = `${mode}`
+
+            updateClock();
+        }
+
+        function handleMode(event) {
+            const { mode } = event.target.dataset;
+
+            if (!mode) return;
+
+            timer.sessions = 0;
+            switchMode(mode);
+            stopTimer();
+        }
+
+const buttonSound = new Audio('button-sound.mp3');
+const mainButton = document.getElementById('start_stop');
+mainButton.addEventListener('click', () => {
+            buttonSound.play();
+            if (!timer.running) {
+                startTimer();
+            } else {
+                stopTimer();
+            }
+        });
+
+const modeButtons = document.querySelectorAll('.modebutton');
+modeButtons.forEach(modebutton => modebutton.addEventListener('click', handleMode));
+
+document.addEventListener('DOMContentLoaded', () => {
+            if ('Notification' in window && Notification.permission !== 'denied') {
+                Notification.requestPermission().then(function (permission) {
+                    if (permission === 'granted') {
+                        new Notification('Awesome! You will receive notifications at the start of a Session or a break');
+                    }
+                });
+            }
+            switchMode('session');
+        });
+
+function resetTimer() {
+    if (timer.running) {
+        stopTimer();
+    }
+    timer.session= 25;
+        timer.shortBreak= 5;
+        timer.longBreak= 15;
+        timer.longBreakInterval= 4;
+        timer.sessions= 0;
+        timer.running= false;
+        timer.remainingTime= { total: 1500, minutes: 25, seconds: 0 };
+        timer.mode= 'session';
+    sessionLabel.textContent = '25';
+    breakLabel.textContent = '5';
+    timeLeft.textContent = '25:00';
+    }
+const reset = document.getElementById('reset');
+reset.addEventListener('click', resetTimer)
+    </script>
+</body>
+
 </html>
