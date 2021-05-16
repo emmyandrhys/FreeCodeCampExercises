@@ -1,0 +1,74 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="newTimer.js"></script>
+    </head>
+    <body>
+        <div id="timer-app">
+            <div id="break">
+                <h3 id="break-label">Break Length</h3>
+                <button id="break-decrement" onclick="breakAdjust(-1)">-1</button>
+                <h2 id="break-length">5</h2>
+                <p>minutes</p>
+                <button id="break-increment" onclick="breakAdjust(1)">+1</button>
+            </div>
+            <div id="session">
+                <h3 id="session-label">Session Length</h3>
+                <button id="session-decrement" onclick="sessionAdjust(-1)">-1</button>
+                <h2 id="session-length">25</h2>
+                <button id="session-increment" onclick="sessionAdjust(1)">+1</button>
+            </div> 
+            <div id="timerBox">
+                <h3 id="timer-label">Session</h3>
+                <h1 id="time-left">25:00</h1>      
+                <div id="controls">
+                    <button id="start_stop" onclick="startStopTimer">Start</button>
+                    <button id="reset" onclick="resetCountdown">Reset</button>
+                </div>
+        </div>
+        <script src="newTimer.js"></script>
+    </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Staley PomPomHero Timer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <progress id="js-progress" value="0"></progress>
+      <div class="progress-bar"></div>
+      <div class="timer">
+        <div class="button-group mode-buttons" id="mode-buttons">
+          <div id="session-buttons">
+            <button data-mode="session" class="button active mode-button" id="session">Session</button>
+          </div>
+          <div id="break-buttons">
+            <button data-mode="shortBreak" class="button mode-button" id="short-break">Short break</button>
+          </div>
+          <button data-mode="longBreak" class="button mode-button" id="long-break">Long break</button>
+        </div>
+        <div class="clock" id="time-left">
+          <span id="time-minutes">25</span>
+          <span class="separator">:</span>
+          <span id="time-seconds">00</span>
+        </div>
+        <button class="main-button" data-action="start" id="start_stop">Start</button>
+        <button class="main-button" data-action="restart" id="reset">Reset</button>
+      </div>
+    </main>
+    <div class="hidden">
+      <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
+      <audio src="break.mp3" data-sound="shortBreak"></audio>
+      <audio src="break.mp3" data-sound="longBreak"></audio>
+    </div>
+    <script src="timer.js"></script>
+  </body>
+</html>

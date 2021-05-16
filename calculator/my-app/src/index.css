@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+#calculator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+#screens {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 30vh;
+  border: 2px solid black;
+  justify-content: space-around;  
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+#formula {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  border: 1px solid red;
+  height: 10vh;
+  width: 29vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#output {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid green;
+  height: 15vh;
+  width: 29vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formulaScreen {
+  padding: 1vh;
+}
+.outputScreen {
+  padding: 1vh;
+}
+#buttongroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30vw;
+  border: 2px solid blue;
+  align-content: center;
+  justify-content: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+button {
+  height: 6vw;
+  margin: 1vh;
+}
+.numbtn {
+  width: 6vw;
+}
+.opbtn {
+  width: 4vw
+}
+.clearbtn {
+  width: 4vw;
+}
+#equals {
+  width: 8.5vw;
+}
+#decimal {
+  width: 6vw;
+}
+#zero {
+  width:12.5vw;
+}
