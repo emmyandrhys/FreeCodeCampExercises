@@ -3,3 +3,6 @@
 /HeaderGraphics/*
 /HeaderGraphics
 /bootstrap-5.0.0-dist
+/vscode/
+/my-app/node-modules
+/my-app/public
